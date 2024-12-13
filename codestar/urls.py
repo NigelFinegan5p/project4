@@ -17,8 +17,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from firstapp.views import my_firstapp
+from about import views as about_views
+from hello_world import views as index_views
+from blog.views import my_blog
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('firstapp/', my_firstapp, name='firstapp'),
+    path('', my_firstapp, name='firstapp'),
+    path('about/', about_views.about_me, name='about'),
+    path('hello/', index_views.index, name='index'),
+    path('blog/', my_blog, name='blog'),
 ]
