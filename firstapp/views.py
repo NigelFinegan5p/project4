@@ -5,3 +5,6 @@ from django.http import HttpResponse
 
 def my_firstapp(request):
     return HttpResponse("Hello, Homepage!")
+
+
+
