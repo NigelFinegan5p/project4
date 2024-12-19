@@ -24,6 +24,7 @@ from hello_world import views as index_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('summernote/', include('django_summernote.urls')),
     path('firstapp/', my_firstapp, name='firstapp'),
     path('about/', about_views.about_me, name='about'),
     path('hello/', index_views.index, name='index'),
