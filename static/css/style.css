@@ -139,7 +139,7 @@ body {
 
 .card-body {
     background-color: #c58a00;
-    border: 5px solid;
+    /* border: 5px solid; */
     margin: -2px;
 }
 
