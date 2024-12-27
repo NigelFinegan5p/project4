@@ -26,7 +26,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('summernote/', include('django_summernote.urls')),
     path('firstapp/', my_firstapp, name='firstapp'),
-    path('about/', about_views.about_me, name='about'),
+    # path('about/', about_views.about_me, name='about'),
+    path("about/", include("about.urls"), name="about-urls"),
     path('hello/', index_views.index, name='index'),
     path("blog/", include("blog.urls"), name="blog-urls"),
 ]
