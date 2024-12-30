@@ -14,7 +14,7 @@ body {
 }
 
 .thin {
-    font-weight: 300;
+    font-weight: 600;
 }
 
 .light-bg {
@@ -26,12 +26,12 @@ body {
 }
 
 .main-bg {
-    background-color: #F9FAFC;
+    background-color: white;
 }
 
 .card {
-    border: none;
-    background-color: transparent;
+    border: 10px;
+    background-color: #c58a00;
 }
 
 .image-container {
@@ -98,7 +98,7 @@ body {
 
 .post-link:hover,
 .page-link {
-    color: #E84610;
+    color: #c58a00;
 }
 
 .post-title {
@@ -106,9 +106,14 @@ body {
     margin-left: 5%;
 }
 
+.post-link {
+    color: #c58a00;
+}
+
+
 .post-subtitle {
     margin-left: 5%;
-    color: lightgray;
+    color: black;
 }
 
 .btn-signup,
