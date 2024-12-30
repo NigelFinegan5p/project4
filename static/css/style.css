@@ -9,9 +9,7 @@ body {
     color: black;
 }
 
-.red-o {
-    color: #E84610;
-}
+
 
 .thin {
     font-weight: 600;
@@ -84,7 +82,7 @@ body {
     right: 90%;
     height: 100%;
     width: 150%;
-    background: black;
+    background: white;
     -webkit-transform: skew(15deg);
     -moz-transform: skew(15deg);
     transform: skew(15deg);
@@ -98,7 +96,7 @@ body {
 
 .post-link:hover,
 .page-link {
-    color: #c58a00;
+    color: black;
 }
 
 .post-title {
@@ -107,7 +105,7 @@ body {
 }
 
 .post-link {
-    color: #c58a00;
+    color: black;
 }
 
 
@@ -163,4 +161,11 @@ body {
 
 .approval {
     color: rgb(222, 146, 168);
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
 }
