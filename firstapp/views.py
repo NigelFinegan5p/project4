@@ -1,10 +1,8 @@
-from django.http import HttpResponse
-from django.shortcuts import render
+from django.views.generic import TemplateView
 
-def my_firstapp(request):
-  return render(request,"firstapp.html")
+class FirstappView(TemplateView):
+    template_name = "firstapp.html"
 
-  
 
 
 

@@ -1,7 +1,6 @@
-from . import views
-from django.urls import path
+from django.conf.urls import url
+from firstapp.views import FirstappView
 
 urlpatterns = [
-    path('firstapp/', my_firstapp, name='firstapp'),
+    url(r'^firstapp/', FirstappView.as_view()),
 ]
-
