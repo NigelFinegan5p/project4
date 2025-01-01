@@ -1,10 +1,180 @@
 {% extends 'base.html' %}
 {% block content %}
 {% load static %}
-<div class="container mt-5">
-   
-    
-    <h1> Hello project homepage firstapp</h1>
+<!-- callout and offer-->
+
+<div class="container-fluid callout-container">
+<div class="opaque-overlay">&nbsp;</div>
+        <div class="row">
+            <div class="col-12">
+                <section class="callout jumbotron text-center">
+                    <h1 class="jumbotron-header">Subscription boxes for a gift that keeps on giving</h1>
+                    <hr class="block-divider block-divider--yellow">
+                    <p class="lead">Gift Box Direct subscription boxes make for an ingenious gift, whether you’re
+                        shopping for
+                        birthdays, anniversaries, other special occasions or just want to treat yourself.
+                        <s class="d-none d-sm-inline">€29.99</s>
+                        <span class="d-inline d-sm-none"><br></span>
+                        <strong>
+                            <mark>First order is €9.99</mark>
+                        </strong>
+                    </p>
+                    <button type="button" class="btn btn-warning btn-lg" data-toggle="modal"
+                        data-target="#signUpModal">Sign Up Today</button>
+                </section>
+            </div>
+        </div>
+    </div>
+
+ <!--callout and offer-->
+
+ <!--quotes-->
+ <div class="container quotes-container content-container">
+ <section class="quotes">
+    <div class="row">
+        <div class="col-12 page-header">
+            <h2 class="text-uppercase">Customer Reviews:</h2>
+            <hr class="block-divider block-divider--short">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <div class="media">
+                <div class="d-none d-sm-block">
+                    <img src="{% static 'images/pexels-jeffreyreed-769733.jpg' %}" class="rounded-circle mr-3" height="85"
+                        width="85" alt="image of customer">
+                </div>
+                <div class="media-body">
+                    <blockquote class="blockquote">
+                        <p>Holy guacamole! Finally a gift box that i can use all the products in.</p>
+                        <P>- Johnny Boyata</P>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="media">
+                <div class="d-none d-sm-block">
+                    <img src="{% static 'images/pexels-divinetechygirl-1181424.jpg' %}" class="rounded-circle mr-3" height="85"
+                        width="85" alt="image of customer">
+                </div>
+                <div class="media-body">
+                    <blockquote class="blockquote">
+                        <P>Delightful! A fantastic selection of self care products that are everyday friendly.
+                        </P>
+                        <P>- Annebelle James</P>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div>
+        <img src="{% static 'images/banner_enhanced11.jpg' %}" class="img-fluid" alt="Responsive image">
+    </div>
+    <div>
+        <img src="{% static 'images/banner3_enhanced4.jpg' %}" class="img-fluid" alt="Responsive image">
+    </div>
+</section>
 </div>
+ <!--/. quotes-->
+
+ <!--- features-->
+ <div class="container-wrapper container-wrapper--gold">
+    <div class="container features-container content-container">
+        <section class="features">
+            <div class="row">
+                <div class="col-12 page-header">
+                    <h2 class="text-uppercase">Gift Box Features:</h2>
+                    <hr class="block-divider block-divider--short block-divider--white">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Gift Box 1 <span
+                                class="badge badge-warning">New!</span></h3>
+                        <p> - New Mum Gift Box - </p>
+                        <p> - Handmade Soap Company hand cream, hand made in Ireland.<br>
+                            - Mango Body Butter from Dublin Herbalist made with mango butter and avocado oil.<br>
+                            - Three Hills Soap Bath Soak/Salts handcrafted in small batches in Dublin.<br>
+                            - Bean & Goose Irish Sea Salt Chocolate. Made in Ireland.</p>
+                        <p>
+                            <a class="btn btn-warning btn-lg" href="about.html" role="button">Read More!</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Gift Box 2 <span
+                                class="badge badge-warning">New!</span></h3>
+                        <p> - New Dad Gift Box - </p>
+                        <p> - Three Hills Soap Irish Activated Charcoal Soap is hand made natural soap.<br>
+                            - Choice of socks from Irish Socksciety, made in Ireland from 100% cotton.<br>
+                            - Oxmantown Vetiver & Sage Beard & Face.Suitable for dads both with and without
+                            beards!<br>
+                            - Badger & Dodo Coffee, Roasted in Cork.
+                        </p>
+                        <P>
+                            <a class="btn btn-warning btn-lg" href="about.html" role="button">Read More!</a>
+                        </P>
+                    </div>
+                </div>
+                <div class="col-12 d-md-none d-lg-block col-lg-4">
+                    <div class="feature">
+                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Gift Box 3 <span
+                                class="badge badge-warning">New!</span></h3>
+                        <p> - Gift Box For Grandad - </p>
+                        <p> - Handmade Soap Company hand cream, hand made in Ireland.<br>
+                            - Mango Body Butter from Dublin Herbalist made with mango butter and avocado oil.<br>
+                            - Three Hills Soap Bath Soak/Salts handcrafted in small batches in Dublin.<br>
+                            - Premium bean to bar dark chocolate.<br>
+                            - Badger & Dodo Coffee, blended in Cork.</p>
+                        <p>
+                            <a class="btn btn-warning btn-lg" href="about.html" role="button">Read More!</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /.features-->
+    </div>
+</div>
+<!--    -->
+<div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Gift Box Direct - Sign Up</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1"
+                            aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="repeatPassword">Repeat Password</label>
+                        <input type="password" class="form-control" id="repeatPassword"
+                            placeholder="repeatPassword">
+                    </div>
+
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
 {% endblock content %}
 

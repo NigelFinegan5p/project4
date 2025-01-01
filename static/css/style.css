@@ -1,3 +1,8 @@
+.callout-container {
+    height: 100vh;
+    background: url('../images/backgroundimage.jpg') no-repeat bottom right fixed !important;
+}
+
 body {
     background-color: #c58a00;
 }
