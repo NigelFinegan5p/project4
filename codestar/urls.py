@@ -19,8 +19,8 @@ from django.urls import path, include
 # from firstapp.views import my_firstapp
 # from django.conf.urls import url
 from django.urls import re_path as url
-from django.views.generic import TemplateView
-# from firstapp.views import FirstappView
+# from django.views.generic import TemplateView
+from firstapp.views import FirstappView
 from about import views as about_views
 from hello_world import views as index_views
 
@@ -29,10 +29,12 @@ from hello_world import views as index_views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('summernote/', include('django_summernote.urls')),
-    path('firstapp/', TemplateView.as_view(template_name="firstapp.html")),
-    # path('firstapp/', include("firstapp.urls"), name='firstapp'),
+    
+    path('', include("firstapp.urls"), name='home'),
     # path('about/', about_views.about_me, name='about'),
     path("about/", include("about.urls"), name="about-urls"),
     path('hello/', index_views.index, name='index'),
     path("blog/", include("blog.urls"), name="blog-urls"),
 ]
+
+# path('', TemplateView.as_view(template_name="firstapp.html")),

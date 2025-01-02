@@ -133,3 +133,10 @@ body {
 .card-img-top {
     border: 15px solid;
 }
+
+/* blog page text and underlines headings */
+
+a {
+    color: black;
+    text-decoration: underline;
+}
