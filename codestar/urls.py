@@ -28,6 +28,7 @@ from hello_world import views as index_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path("accounts/", include("allauth.urls")),
     path('summernote/', include('django_summernote.urls')),
     
     path('', include("firstapp.urls"), name='home'),
