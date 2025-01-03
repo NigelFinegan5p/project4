@@ -74,6 +74,13 @@
                     {% endif %}
 
                 </ul>
+                <!-- logged in & logged out-->
+                {% if user.is_authenticated %}
+                <p class="text-end m-3">You are logged in as {{ user }}</p>
+                {% else %}
+                <p class="text-end m-3">You are not logged in</p>
+                {% endif %}
+                <!-- logged in & logged out-->
                 <span class="navbar-text text-muted">
                     For a gift that keeps giving
                 </span>
@@ -82,6 +89,7 @@
     </nav>
 
     <main class="flex-shrink-0 main-bg">
+
 
         {% block content %}
         <!-- Content Goes here -->
