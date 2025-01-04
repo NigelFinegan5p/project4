@@ -23,7 +23,9 @@ from django.urls import re_path as url
 from firstapp.views import FirstappView
 from about import views as about_views
 from hello_world import views as index_views
-
+# gift app added for gifts page (views)
+from django.urls import re_path as url
+from gifts.views import GiftsView
 
 
 urlpatterns = [
@@ -36,6 +38,7 @@ urlpatterns = [
     path("about/", include("about.urls"), name="about-urls"),
     path('hello/', index_views.index, name='index'),
     path("blog/", include("blog.urls"), name="blog-urls"),
+    path("gifts/", include("gifts.urls"), name='gifts'),
 ]
 
 # path('', TemplateView.as_view(template_name="firstapp.html")),
