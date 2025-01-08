@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+
+<h1>Available Giftboxes</h1>
+    <ul>
+        {% for giftbox in giftboxes %}
+            <li>
+                <strong>{{ giftbox.name }}</strong><br>
+                {{ giftbox.description }}<br>
+                Price: ${{ giftbox.price }}<br>
+                <a href="{% url 'book_giftbox' giftbox.id %}">Book Now</a>
+            </li>
+        {% endfor %}
+    </ul>
+
+
+{% endblock content %}

@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+
+<head>
+    <title>Book {{ giftbox.name }}</title>
+</head>
+<body>
+    <h1>Book {{ giftbox.name }}</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Book Giftbox</button>
+    </form>
+</body>
+
+
+{% endblock content %}

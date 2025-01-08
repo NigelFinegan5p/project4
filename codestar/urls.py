@@ -36,9 +36,10 @@ urlpatterns = [
     path('', include("firstapp.urls"), name='home'),
     # path('about/', about_views.about_me, name='about'),
     path("about/", include("about.urls"), name="about-urls"),
-    path('hello/', index_views.index, name='index'),
+    # path('hello/', index_views.index, name='index'),
     path("blog/", include("blog.urls"), name="blog-urls"),
     path("gifts/", include("gifts.urls"), name='gifts'),
+    path('hello/', include('hello_world.urls')),
 ]
 
 # path('', TemplateView.as_view(template_name="firstapp.html")),
