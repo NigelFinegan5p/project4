@@ -25,13 +25,23 @@
           <p class="text-end"><em>Updated on: {{ about.updated_on }}</em></p>
 
           <!-- added  form here. -->
-          <form method="post">
-            {{ collaborate_form | crispy }}
-            {% csrf_token %}
-            <button class="btn btn-secondary"
-              type="submit">Submit</button>
-          </form>
+          
         </div>
-      </div>    
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-6 my-5">
+            <h2>Let's celebrate all things Gift Box!</h2>
+            <p>Is there something out there you have seen and would like to share, Please reach out
+                tell us at the gift box forum!</p>
+
+            <!-- add your form here. Your submit button should 
+                                have the classes of btn, btn-secondary -->
+            <form method="post">
+                {{ collaborate_form | crispy }}
+                {% csrf_token %}
+                <button class="btn btn-secondary" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>   
 </div>
 {% endblock content %}

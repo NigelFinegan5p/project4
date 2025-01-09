@@ -1,8 +1,15 @@
 from django.shortcuts import render
+from django.contrib import messages
 from .models import About
 from .forms import CollaborateForm
 
 def about_me(request):
+
+    if request.method == "POST":
+        collaborate_form = CollaborateForm(data=request.POST)
+        if collaborate_form.is_valid():
+            collaborate_form.save()
+            messages.add_message(request, messages.SUCCESS, "Gift box forum request recieved, Catch you soon, Let's celebrate all things Gift Box!")
     """
     Renders the About page
     """
