@@ -2,13 +2,28 @@
 {% block content %}
 {% load static %}
 
-<head>
-    <title>Booking Confirmation</title>
-</head>
-<body>
-    <h1>Booking Confirmation</h1>
-    <p>Thank you {{ booking.customer_name }} for booking {{ booking.giftbox.name }}!</p>
-    <p>Your booking is confirmed. A confirmation email will be sent to {{ booking.customer_email }}.</p>
-</body>
+
+<div class="row">
+    <div class="col-md-8 mt-3 offset-md-2">
+
+        <head>
+            <title>Booking Confirmation</title>
+        </head>
+
+        <body>
+            <h1>Booking Confirmation</h1>
+            <p>Thank you {{ booking.customer_name }} for booking {{ booking.giftbox.name }}!</p>
+            <p>Your booking is confirmed. A confirmation email will be sent to {{ booking.customer_email }}.</p>
+        </body>
+
+        <div>
+            <img src="{% static 'images/banner_enhanced11.jpg' %}" class="img-fluid" alt="Responsive image">
+        </div>
+        <div>
+            <img src="{% static 'images/banner3_enhanced4.jpg' %}" class="img-fluid" alt="Responsive image">
+        </div>
+
+    </div>
+</div>
 
 {% endblock content %}

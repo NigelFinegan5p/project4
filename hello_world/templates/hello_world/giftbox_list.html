@@ -2,18 +2,24 @@
 {% block content %}
 {% load static %}
 
-<h1>Available Giftboxes</h1>
-    <ul>
-        {{ giftboxes }}
-        {% for giftbox in giftboxes %}
+
+<div class="row">
+    <div class="col-md-8 mt-3 offset-md-2">
+        <h1>Choose From 6 Premium Giftboxes</h1>
+        <ul>
+
+            {% for giftbox in giftboxes %}
             <li>
                 <strong>{{ giftbox.name }}</strong><br>
                 {{ giftbox.description }}<br>
-                Price: ${{ giftbox.price }}<br>
-                <a href="{% url 'book_giftbox' giftbox.id %}">Book Now</a>
+                Price: €{{ giftbox.price }}<br>
+                <img class="card-img-top" src="{% static 'images/0004568.jpg' %}" alt="Card image cap" size="10%">
+                <a class="btn btn-warning btn-lg" href="{% url 'book_giftbox' giftbox.id %}">Book Now !</a>
+
+
             </li>
-        {% endfor %}
-    </ul>
-
-
+            {% endfor %}
+        </ul>
+    </div>
+</div>
 {% endblock content %}
