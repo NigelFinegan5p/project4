@@ -26,3 +26,6 @@ def booking_confirmation(request, booking_id):
     booking = Booking.objects.get(id=booking_id)
     return render(request, 'hello_world/booking_confirmation.html', {'booking': booking})
 
+
+
+

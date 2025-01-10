@@ -7,3 +7,5 @@ urlpatterns = [
     path('booking_confirmation/<int:booking_id>/', views.booking_confirmation, name='booking_confirmation'),
 ]
 
+
+
