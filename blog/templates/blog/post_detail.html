@@ -65,12 +65,12 @@
                     </div>
                     {% if not comment.approved and comment.author == user %}
                     <p class="approval">
-                        This comment is awaiting approval
+                        <strong>This comment is awaiting approval, bear with us, Team #GBD!</strong>
                     </p>
                     {% endif %}
                     {% if user.is_authenticated and comment.author == user %}
-                    <button class="btn btn-delete" comment_id="{{ comment.id }}">Delete</button>
-                    <button class="btn btn-edit" comment_id="{{ comment.id }}">Edit</button>
+                    <button class="btn btn-delete btn-warning" comment_id="{{ comment.id }}">Delete</button>
+                    <button class="btn btn-edit btn-warning" comment_id="{{ comment.id }}">Edit</button>
                     {% endif %}
                 </div>
                 <!-- Our for loop ends here -->
@@ -86,7 +86,7 @@
                 <form id="commentForm" method="post" style="margin-top: 1.3em;">
                     {{ comment_form | crispy }}
                     {% csrf_token %}
-                    <button id="submitButton" type="submit" class="btn btn-signup btn-lg">Submit</button>
+                    <button id="submitButton" type="submit" class="btn btn-signup btn-lg btn-warning">Submit</button>
                 </form>
                 {% else %}
                 <p>Log in to leave a comment</p>
@@ -113,7 +113,7 @@
         This action cannot be undone. Thank you, for being part of the Gift Box experience!
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary"
+        <button type="button" class="btn btn-secondary btn-warning"
           data-bs-dismiss="modal">Close</button>
         <a id="deleteConfirm" href="#" class="btn
           btn-danger">Delete</a>
