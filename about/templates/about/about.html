@@ -3,9 +3,14 @@
 {% load crispy_forms_tags %}
 {% block content %}
 
-<div class="container mt-5" id="about" style="background-image: url(' {% static 'images/' %}');">
+<div class="container mt-5" id="about">
     <div class="row">
         <div class="col-4 text-center">
+            <!-- {% if "placeholder" in about.profile_image.url %}
+            <img src="{% static 'images/nobody.jpg' %}" width="75%" alt="placeholder image">
+            {% else %}
+            <img src="{{ about.profile_image.url }}" width="75%" alt="{{ about.title }}">
+            {% endif %} -->
             <img src="{% static 'images/bg.jpg' %}" width="100%">
             <p>
                 <br>
@@ -20,15 +25,15 @@
     </div>
     <div class="row">
         <div class="col text-right">
-          <!-- Updated on field goes in here -->
-    
-          <p class="text-end"><em>Updated on: {{ about.updated_on }}</em></p>
+            <!-- Updated on field goes in here -->
 
-          <!-- added  form here. -->
-          
+            <p class="text-end"><em>Updated on: {{ about.updated_on }}</em></p>
+
+            <!-- added  form here. -->
+
         </div>
-      </div>
-      <div class="row justify-content-center">
+    </div>
+    <div class="row justify-content-center">
         <div class="col-12 col-md-6 my-5">
             <h2>Let's celebrate all things Gift Box!</h2>
             <p>Is there something out there you have seen and would like to share, Please reach out
@@ -42,6 +47,6 @@
                 <button class="btn btn-secondary" type="submit">Submit</button>
             </form>
         </div>
-    </div>   
+    </div>
 </div>
 {% endblock content %}
