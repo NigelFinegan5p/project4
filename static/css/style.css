@@ -6,6 +6,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.rounded-circle {
+    border-radius: 100% !important;
+    width: 20%;
+}
+
+
+
 .alert-container {}
 
 .container-wrapper {}
