@@ -1,14 +1,20 @@
 {% extends 'base.html' %}
-
 {% block content %}
 {% load static %}
+
 
 <div class="row">
     <div class="col-md-8 mt-3 offset-md-2">
 
-        <h1>Booking Confirmation</h1>
-        <p>Thank you {{ booking.customer_name }} for booking {{ booking.giftbox.name }}!</p>
-        <p>Your booking is confirmed. A confirmation email will be sent to {{ booking.customer_email }}.</p>
+        <head>
+            <title>Booking Confirmation</title>
+        </head>
+
+        <body>
+            <h1>Booking Confirmation</h1>
+            <p>Thank you {{ booking.customer_name }} for booking {{ booking.giftbox.name }}!</p>
+            <p>Your booking is confirmed. A confirmation email will be sent to {{ booking.customer_email }}.</p>
+        </body>
 
         <br>
         <br>
@@ -19,6 +25,10 @@
         <div>
             <img src="{% static 'images/banner3_enhanced4.jpg' %}" class="img-fluid" alt="Responsive image">
         </div>
+
+
+
+
 
     </div>
 </div>

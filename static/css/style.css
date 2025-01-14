@@ -148,3 +148,9 @@ a {
 .page-link {
     color: black;
 }
+
+/* abouyt page image css */
+img, svg {
+    vertical-align: middle;
+    width: 100%;
+}
