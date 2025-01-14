@@ -10,3 +10,5 @@ class BookingForm(forms.ModelForm):
     customer_name = forms.CharField(max_length=100)
     customer_email = forms.EmailField()
 
+
+
