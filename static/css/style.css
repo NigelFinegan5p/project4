@@ -164,8 +164,8 @@ img, svg {
     border-radius: 50% !important;
 } */
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
     .container, .container-lg, .container-md, .container-sm {
         max-width: 960px;
     }
-}
+} */

@@ -7,3 +7,4 @@ class CollaborateForm(forms.ModelForm):
         model = CollaborateRequest
         fields = ('name', 'email', 'message')
 
+# CI Python Linter 15/01/2025  16.44pm

@@ -14,3 +14,4 @@ class CollaborateRequestAdmin(admin.ModelAdmin):
 
     list_display = ('message', 'read',)
 
+# CI Python Linter 15/01/2025  16.40pm

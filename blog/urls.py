@@ -9,3 +9,5 @@ urlpatterns = [
     path('<slug:slug>/delete_comment/<int:comment_id>',
          views.comment_delete, name='comment_delete'),
 ]
+
+# CI Python Linter 15/01/2025 17.29pm
