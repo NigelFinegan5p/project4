@@ -14,3 +14,6 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'codestar.settings')
 
 application = get_wsgi_application()
+
+
+# CI Python Linter 15/01/2025 18.30pm

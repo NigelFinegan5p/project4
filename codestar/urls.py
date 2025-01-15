@@ -43,3 +43,5 @@ urlpatterns = [
 ]
 
 # path('', TemplateView.as_view(template_name="firstapp.html")),
+
+# CI Python Linter 15/01/2025 18.30pm
