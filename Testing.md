@@ -51,7 +51,7 @@ Strategic & Defensive programming conducted manual testing as per the site struc
 
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
-| Page | W3C URL | Screenshot | Notes |
-| --- | --- | --- | --- |
-| Home | [W3C]( HOME) | ![screenshot]() | Pass: No Errors |
+| Page | Screenshot | Notes |
+| --- | --- | --- |
+| Home |![screenshot]() | Pass: No Errors |
 
