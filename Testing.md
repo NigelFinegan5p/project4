@@ -189,6 +189,10 @@ Tested my deployed Heroku project using the Lighthouse Audit tool to check for a
 | Hello Book & Subscribe | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/hello.lighthouse.jpg) | performance suggestions |
 | Gifts | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/gifts.lighthouse.jpg) | performance suggestions |
 | Logout | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/logout.lighthouse.jpg) | performance suggestions |
-| Book  | ![screenshot]() | performance suggestions |
+| Book  | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/book1.lighthouse.jpg) | performance suggestions |
 | Confirmation | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/confirmation.lighthouse.jpg) | performance suggestions |
+
+
+<br>
+<br>
 
