@@ -64,5 +64,13 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 
 
+### CSS
+
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
+
+| Page | Screenshot | Notes |
+| --- | --- | --- |
+| Home |![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/css_validator/css.validator.jpg) | Pass: No Errors |
+
 
 
