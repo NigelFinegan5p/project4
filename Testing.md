@@ -45,8 +45,11 @@ Strategic & Defensive programming conducted manual testing as per the site struc
 | | Enter Post Comment Update | Edit button is required | Pass | |
 
 
-<div style="page-break-after: always"></div>
-<div style="page-break-after: always"></div>
+<br>
+<br>
+
+<br>
+<br>
 
 
 ### HTML
