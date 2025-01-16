@@ -1,4 +1,4 @@
-## Strtegic & Defensive Programming
+## Strategic & Defensive Programming
 
 Strategic & Defensive programming conducted manually as per the site structure below:
 
