@@ -117,5 +117,24 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 | views.py | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/python_linter/blog/blog_app.views.py.jpg) | Pass: No Errors |
 
 
+<br>
+<br>
+
+#### Validation Codestar
+
+| File | Screenshot | Notes |
+| --- | --- | --- |
+| settings.py | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/python_linter/codestar/codestar_app.settings.py.jpg) | Pass: No Errors |
+| urls.py | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/python_linter/codestar/codestar_app.urls.py.jpg) | Pass: No Errors |
+| wsgi.py | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/python_linter/codestar/codestar_app.wsgi.py.jpg) | Pass: No Errors |
+
+
+
+<br>
+<br>
+
+
+
+
 
 
