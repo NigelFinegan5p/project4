@@ -31,9 +31,10 @@ Strategic & Defensive programming conducted manual testing as per the site struc
 | Log Out | | | | |
 | | Click Logout button | Logs out user, Redirects user to logout page | Pass |
 | User Book & Subscribe | | | | |
-| | Click on the book 1 to 6 - click ( BOOKING ) button | Redirect to booking Form | Pass | |
-| | Enter details for booking - click ( BOOKING ) button | Redirect to booking confimation Form | Pass | |
-| | Click on Book Giftbox | Redirects to that booking confirmation details | Pass | |
+| | Enter valid Username & Password | Field will accept max letters 20 | Pass | |
+| | Click on pne of the 6 options ( book 1 to 6 ) - click ( BOOKING ) button | Redirect to booking Form | Pass | |
+| | Enter details for booking - Customer name & Customer Email | Redirect to booking confimation Form | Pass | |
+| | Click on Book Giftbox | Redirects to that booking confirmation page with email confirmation details | Pass | |
 | Confirmation Details | | | | |
 | | After confirmation email sent to user | Redirect to giftbox booking confirmation page | Pass | |
 | Site Navigations - Logged Out User | | | | |
