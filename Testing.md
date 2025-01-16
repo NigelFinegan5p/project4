@@ -53,14 +53,16 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Page | Screenshot | Notes |
 | --- | --- | --- |
-| Home |![screenshot]() | Pass: No Errors |
-| About |![screenshot]() | Pass: No Errors |
-| Blog |![screenshot]() | Pass: No Errors |
-| Hello |![screenshot]() | Pass: No Errors |
-| Gifts |![screenshot]() | Pass: No Errors |
-| Logout |![screenshot]() | Pass: No Errors |
-| Book |![screenshot]() | Pass: No Errors |
-| Confirmation |![screenshot]() | Pass: No Errors |
+| Home |![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/w3c_validator/w3c.homepage.jpg) | Pass: No Errors |
+| About |![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/w3c_validator/w3c.about.jpg) | Pass: No Errors |
+| Blog |![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/w3c_validator/w3c.blog.jpg) | Pass: No Errors |
+| Hello |![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/w3c_validator/w3c.hello.jpg) | Pass: No Errors |
+| Gifts |![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/w3c_validator/w3c.gifts.jpg) | Pass: No Errors |
+| Logout |![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/w3c_validator/w3c.logout.jpg) | Pass: No Errors |
+| Book |![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/w3c_validator/w3c.book1.jpg) | Pass: No Errors |
+| Confirmation |![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/w3c_validator/w3c.confirmation.jpg) | Pass: No Errors |
+
+
 
 
 
