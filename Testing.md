@@ -92,7 +92,7 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 
 #### Validation About App
 | File | Screenshot | Notes |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | admin.py | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/python_linter/about/about_app.admin.py.jpg) | Pass: No Errors |
 | apps.py | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/python_linter/about/about_app.apps.py.jpg) | Pass: No Errors |
 | forms.py | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/python_linter/about/about_app.forms.py.jpg) | Pass: No Errors |
