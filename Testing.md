@@ -45,6 +45,8 @@ Strategic & Defensive programming conducted manual testing as per the site struc
 | | Enter Post Comment Update | Edit button is required | Pass | |
 
 
+<br>
+<br>
 
 
 ### HTML
@@ -63,6 +65,8 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 | Confirmation |![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/w3c_validator/w3c.confirmation.jpg) | Pass: No Errors |
 
 
+<br>
+<br>
 
 ### CSS
 
