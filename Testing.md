@@ -33,7 +33,7 @@ Strategic & Defensive programming conducted manual testing as per the site struc
 | User Book & Subscribe | | | | |
 | | Must be Logged in|  Please log in. If you have not created an account yet, then sign up first. | Pass | |
 | | Enter valid Username & Password | Field will accept max letters 20 | Pass | |
-| | Click on pne of the 6 options ( book 1 to 6 ) - click ( BOOKING ) button | Redirect to booking Form | Pass | |
+| | Click any one of the 6 options ( book 1 to 6 ) - click ( BOOKING ) button | Redirect to booking Form | Pass | |
 | | Enter details for booking - Customer name & Customer Email | Redirect to booking confimation Form | Pass | |
 | | Click on Book Giftbox | Redirects to that booking confirmation page with email confirmation details | Pass | |
 | Confirmation Details | | | | |
