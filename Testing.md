@@ -171,4 +171,24 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 | views.py | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/python_linter/hello_world/hello_world.views.py.jpg) | Pass: No Errors |
 
 
+<br>
+<br>
+
+
+
+## Lighthouse Audit, Chrome Developer Tools
+
+Tested my deployed Heroku project using the Lighthouse Audit tool to check for any major issues.
+
+### Website App Templates - Desktop Testing
+| Page | Screenshot | Notes |
+| --- | --- | --- |
+| Home |  ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/homepage.lighthouse.jpg) | performance suggestions |
+| About | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/aboutpage.lighthouse.jpg) | performance suggestions |
+| Blog | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/blog.lighthouse.jpg) | performance suggestions |
+| Hello Book & Subscribe | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/hello.lighthouse.jpg) | performance suggestions |
+| Gifts | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/gifts.lighthouse.jpg) | performance suggestions |
+| Logout | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/logout.lighthouse.jpg) | performance suggestions |
+| Book  | ![screenshot]() | performance suggestions |
+| Confirmation | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/confirmation.lighthouse.jpg) | performance suggestions |
 
