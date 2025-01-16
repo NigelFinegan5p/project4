@@ -54,4 +54,13 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 | Page | Screenshot | Notes |
 | --- | --- | --- |
 | Home |![screenshot]() | Pass: No Errors |
+| About |![screenshot]() | Pass: No Errors |
+| Blog |![screenshot]() | Pass: No Errors |
+| Hello |![screenshot]() | Pass: No Errors |
+| Gifts |![screenshot]() | Pass: No Errors |
+| Logout |![screenshot]() | Pass: No Errors |
+| Book |![screenshot]() | Pass: No Errors |
+| Confirmation |![screenshot]() | Pass: No Errors |
+
+
 
