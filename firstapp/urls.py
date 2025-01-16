@@ -6,7 +6,5 @@ urlpatterns = [
 ]
 
 
+# CI Python Linter 16/01/2025 10.35am
 
-# from django.conf.urls import url
-# from firstapp.views import FirstappView
-# url(r'^firstapp/', FirstappView.as_view()),
