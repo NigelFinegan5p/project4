@@ -1,6 +1,6 @@
 ## Strategic & Defensive Programming
 
-Strategic & Defensive programming conducted manually as per the site structure below:
+Strategic & Defensive programming conducted manual testing as per the site structure below:
 
 | Page | User Action | Expected Result | Pass/Fail | Comments |
 | --- | --- | --- | --- | --- |
@@ -9,7 +9,7 @@ Strategic & Defensive programming conducted manually as per the site structure b
 | | Click on Home link in navbar | Redirection to Home page | Pass | |
 | | Click on About link in navbar | Redirection to About page | Pass | |
 | | Click on Blog link in navbar | Redirection to Blog page | Pass | |
-| | Click on Book & Subscribe link in navbar | Book & Subscribe to Register page if not logged in, Django Decorator | Pass | |
+| | Click on Book & Subscribe link in navbar | Log in to Book & Subscribe, registered user only,  Django Decorator | Pass | |
 | | Click on Gifts link in navbar | Redirection to Gifts page ( view 6 GBD boxes )| Pass | |
 | | Click on Register link in navbar | Redirection to Accounts/Sign up page | Pass | |
 | GBD Blog Page | | | | |
@@ -32,6 +32,7 @@ Strategic & Defensive programming conducted manually as per the site structure b
 | | Click Logout button | Logs out user, Redirects user to logout page | Pass |
 | User Book & Subscribe | | | | |
 | | Click on the book 1 to 6 - click ( BOOKING ) button | Redirect to booking Form | Pass | |
+| | Enter details for booking - click ( BOOKING ) button | Redirect to booking confimation Form | Pass | |
 | | Click on Book Giftbox | Redirects to that booking confirmation details | Pass | |
 | Confirmation Details | | | | |
 | | After confirmation email sent to user | Redirect to giftbox booking confirmation page | Pass | |
