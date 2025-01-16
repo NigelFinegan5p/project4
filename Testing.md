@@ -151,9 +151,9 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 
 | File | Screenshot | Notes |
 | --- | --- | --- |
-| apps.py | ![screenshot]() | Pass: No Errors |
-| urls.py | ![screenshot]() | Pass: No Errors |
-| views.py | ![screenshot]() | Pass: No Errors |
+| apps.py | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/python_linter/gifts/gifts_app.apps.py.jpg) | Pass: No Errors |
+| urls.py | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/python_linter/gifts/gifts_app.urls.py.jpg) | Pass: No Errors |
+| views.py | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/python_linter/gifts/gifts_app.views.py.jpg) | Pass: No Errors |
 
 
 <br>
