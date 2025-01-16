@@ -21,3 +21,6 @@ class BookingAdmin(admin.ModelAdmin):
 # Register the models with the admin site
 admin.site.register(GiftBox, GiftBoxAdmin)
 admin.site.register(Booking, BookingAdmin)
+
+# CI Python Linter 16/01/2025 11.09am
+

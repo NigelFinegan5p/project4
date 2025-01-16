@@ -7,6 +7,5 @@ urlpatterns = [
     path('booking_confirmation/<int:booking_id>/', views.booking_confirmation, name='booking_confirmation'),
 ]
 
-
-
+# CI Python Linter 16/01/2025 11.24am
 

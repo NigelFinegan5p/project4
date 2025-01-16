@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class GiftBox(models.Model):
     """
     A simple model with gift boxs available for booking.
@@ -31,6 +32,7 @@ class GiftBox(models.Model):
     def __str__(self):
         return self.name
 
+
 class Booking(models.Model):
     """
     A simple booking model representing 6 options ( gift boxes 1 to 6).
@@ -53,6 +55,8 @@ class Booking(models.Model):
     def __str__(self):
         return f"{self.customer_name} booked {self.giftbox.name}"
 
+
+# CI Python Linter 16/01/2025 11.22am
 
 
 

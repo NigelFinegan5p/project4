@@ -1,6 +1,7 @@
 from django import forms
 from .models import Booking, GiftBox
 
+
 class BookingForm(forms.ModelForm):
     class Meta:
         model = Booking
@@ -10,5 +11,5 @@ class BookingForm(forms.ModelForm):
     customer_name = forms.CharField(max_length=100)
     customer_email = forms.EmailField()
 
-
+# CI Python Linter 16/01/2025 11.18am
 

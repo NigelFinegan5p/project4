@@ -4,11 +4,11 @@ from .forms import BookingForm
 from django.contrib.auth.decorators import login_required
 
 
-
 @login_required(login_url="/accounts/login/")
 def giftbox_list(request):
     giftboxes = GiftBox.objects.all()
     return render(request, 'hello_world/giftbox_list.html', {'giftboxes': giftboxes})
+
 
 def book_giftbox(request, giftbox_id):
     giftbox = GiftBox.objects.get(id=giftbox_id)
@@ -26,8 +26,10 @@ def book_giftbox(request, giftbox_id):
 
     return render(request, 'hello_world/book_giftbox.html', {'form': form, 'giftbox': giftbox})
 
+
 def booking_confirmation(request, booking_id):
     booking = Booking.objects.get(id=booking_id)
     return render(request, 'hello_world/booking_confirmation.html', {'booking': booking})
 
 
+# CI Python Linter 16/01/2025 11.28am
