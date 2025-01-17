@@ -206,6 +206,8 @@ The home page / landing page had an overflow which was affecting all the sizing 
 
 Having spoke to tutor suport on this and the approah to take was to install the following chrome extension, Unicorn Revealer by dehlin.dev 5.0 withe the following (20 ratings) from other users.
 
+## Unicorn revealer
+
 The extension excerpts below:
 Overview
 Do you have overflow on your website and want to try find it. Sparkle some 🦄🌈on your website and find where it is.
@@ -218,6 +220,7 @@ Using this chrome extension I were able to locate the issue in a hr tag, the Hor
 
 Before implementing a final solution to this I tested 200px. 250px, 300px, 350px and 400px. 
 
-Thanks to Thomas Wharton - Learning Success Tutor - Code Institute
+Thanks to Thomas Wharton - Learning Success Tutor - Code Institute... 
+
 
 
