@@ -8,18 +8,18 @@
 | Page | Link | Notes |
 | --- | --- | --- |
 | HTML | [LINK](https://en.wikipedia.org/wiki/HTML) | used for the main site content |
-| CSS |![screenshot](https://en.wikipedia.org/wiki/CSS) | used for the main site content styling |
-| CSS flexbox |![screenshot](https://www.w3schools.com/css/css3_flexbox.asp) | used for the main site content |
-| CSS grid |![screenshot](https://www.w3schools.com/css/css_grid.asp) | used for the main site content |
-| Javascript |![screenshot](https://www.javascript.com) | used for the main site content |
-| Python |![screenshot](https://www.python.org) | used for the main site content |
-| GitHub |![screenshot](https://github.com) | used for the main site content |
-| Bootstrap |![screenshot](https://getbootstrap.com) | used for the main site content |
-| Django |![screenshot](https://www.djangoproject.com) | used for the main site content |
-| Heroku |![screenshot](https://www.heroku.com) | used for the main site content |
-| Cloudinary |![screenshot](https://cloudinary.com) | used for the main site content |
-| Gumicorn |![screenshot](https://gunicorn.org/) | used for the main site content |
-| psycopg2 |![screenshot](https://pypi.org/project/psycopg2/) | used for the main site content |
+| CSS | [LINK](https://en.wikipedia.org/wiki/CSS) | used for the main site content styling |
+| CSS flexbox | [LINK](https://www.w3schools.com/css/css3_flexbox.asp) | used for the main site content |
+| CSS grid | [LINK](https://www.w3schools.com/css/css_grid.asp) | used for the main site content |
+| Javascript | [LINK](https://www.javascript.com) | used for the main site content |
+| Python | [LINK](https://www.python.org) | used for the main site content |
+| GitHub | [LINK](https://github.com) | used for the main site content |
+| Bootstrap | [LINK](https://getbootstrap.com) | used for the main site content |
+| Django | [LINK](https://www.djangoproject.com) | used for the main site content |
+| Heroku | [LINK](https://www.heroku.com) | used for the main site content |
+| Cloudinary | [LINK](https://cloudinary.com) | used for the main site content |
+| Gumicorn | [LINK](https://gunicorn.org/) | used for the main site content |
+| psycopg2 | [LINK](https://pypi.org/project/psycopg2/) | used for the main site content |
 
 
 <br>
