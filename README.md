@@ -112,6 +112,11 @@ Thank you............................................................
 
 ## Bibliography & Sources
 
+Django 5 By Example book, Antonio Melé
+
+https://djangobyexample.com/
+
+
 IMPRACTICAL PYTHON PROJECTS, Author Lee Vaughan
 
 [https://www.kea.nu/files/textbooks/humblelearn2code/impracticalpythonprojects.pdf](https://www.kea.nu/files/textbooks/humblelearn2code/impracticalpythonprojects.pdf)
