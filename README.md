@@ -186,7 +186,24 @@ Each path() function call represents a specific URL pattern and maps it to a vie
 <br>
 <br>
 
+## Views.py File
 
+***Introduction***
+
+In the model view controller (MVC) architecture, the view component deals with how data is presented to users for consumption and viewing. In the Django framework,  [views](https://docs.djangoproject.com/en/3.1/topics/http/views/)  are Python functions or classes that receive a web request and return a web response. Additionally we are noting the clear distinction and delineation between function and class based views. 
+
+The response can be a simple HTTP response, an HTML template response, or an HTTP redirect response that redirects a user to another page. Views hold the logic that is required to return information as a response in whatever form to the user. As a matter of best practice, the logic that deals with views is held in the  **views.py**  file in a Django app.
+
+
+
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
 
 ## Tools & Technologies Used
 
