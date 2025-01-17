@@ -96,3 +96,10 @@ The project should now be connected and deployed to Heroku!
 <br>
 
 
+### Acknowledgements
+
+- I would like to thank my Code Institute mentor, Spencer Barriball for all the meeetings, insights & insightfullnes, viking stories and Game of thrones anecdotes.
+
+P.s spence the book recommedation of Antonio Melé author of the Django by Example programming book, has been most helpful and of great assistance. 
+
+Thank you........................................
