@@ -93,11 +93,11 @@ This form is a **ModelForm**, which means it's directly tied to a Django model. 
 
 -   The **Meta class** is used to configure the form's settings, particularly which model it is tied to and which fields should be included in the form.
 
-**model = Booking****:**
+**model = Booking**
 
 -   This specifies that the form is tied to the Booking model. So, the form will be used to create or edit instances of this model, in this case the below fields.
 
-**fields = ['giftbox', 'customer_name', 'customer_email']****:**
+**fields = ['giftbox', 'customer_name', 'customer_email']**
 
 -   This indicates that the form will include the following fields for user input:
 
@@ -115,7 +115,6 @@ The BookingForm is a Django form that allows users to create or update Booking o
 -   A field for the customer's email address.
 
 The form uses a ModelForm to handle the conversion of user input into model instances for saving to the database. One the user inputs the 3 fields the data is sent to the Django database and retrieved form there by /admin and logging in as a Super User. 
-
 
 <br>
 <br>
