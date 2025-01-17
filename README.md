@@ -58,6 +58,9 @@ This admin.py file is configuring the Django Admin interface for two models, Gif
 <br>
 <br>
 
+<br>
+<br>
+
 
 ## Forms.py File
 
@@ -122,6 +125,9 @@ The form uses a ModelForm to handle the conversion of user input into model inst
 <br>
 <br>
 
+<br>
+<br>
+
 
 ## Urls.py File
 
@@ -175,7 +181,8 @@ Each path() function call represents a specific URL pattern and maps it to a vie
 <br>
 <br>
 
-
+<br>
+<br>
 
 
 
@@ -204,6 +211,9 @@ Each path() function call represents a specific URL pattern and maps it to a vie
 <br>
 <br>
 
+<br>
+<br>
+
 ### MoSCoW Prioritization
 
 I applied the MoSCow prioritization and labels to my user stories within GitHub platform.
@@ -216,10 +226,19 @@ I applied the MoSCow prioritization and labels to my user stories within GitHub 
 <br>
 <br>
 
+<br>
+<br>
+
+<br>
+<br>
+
 ## Testing
 
 For all testing, please refer to the [TESTING.md](https://github.com/NigelFinegan5p/project4/blob/main/Testing.md) file.
 
+
+<br>
+<br>
 
 <br>
 <br>
@@ -277,6 +296,9 @@ The project should now be connected and deployed to Heroku!
 <br>
 <br>
 
+<br>
+<br>
+
 
 ### Acknowledgements
 
@@ -287,6 +309,9 @@ P.s spence the book recommedation of Antonio Melé author of the Django by Examp
 Thank you............................................................
 
 
+
+<br>
+<br>
 
 <br>
 <br>
