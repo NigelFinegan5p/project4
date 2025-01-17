@@ -125,7 +125,8 @@ The form uses a ModelForm to handle the conversion of user input into model inst
 
 ## urls.py File
 
-**Code Explanation:**
+The urls.py file. So what really happens in urls.py?
+Like reading a map before exploring a terrain A URL pattern is defined as a regular expression that matches a URL. When a user requests a URL, Django goes through the list of URL patterns defined in the urls.py file and finds the first pattern that matches the URL. If no pattern matches, Django returns a 404 error.
 
 The urls.py file contains the follwing code:
 
