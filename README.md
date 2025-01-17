@@ -143,8 +143,8 @@ The urls.py file contains the follwing code:
 
 1.  **Imports**:
 
-    from django.urls import path
-    from . import view
+`from django.urls import path` 
+`from . import view`
 
 -   path is imported from django.urls to define URL patterns.
 -   views is imported to reference the view functions that handle HTTP requests and return responses.
@@ -167,7 +167,7 @@ Each path() function call represents a specific URL pattern and maps it to a vie
 -   This pattern will match URLs of the form book/<giftbox_id>, where <giftbox_id> is an integer passed as a parameter.
 -   The value of <giftbox_id> will be passed to the book_giftbox view function.
 -   The booking from the end user occurs when they are presented with a drop down box of 6 options.
-<!-- <!-- next file here> -->
+
 
 <br>
 <br>
