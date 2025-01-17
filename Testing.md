@@ -200,11 +200,11 @@ Tested my deployed Heroku project using the Lighthouse Audit tool to check for a
 
 ## Bug fixing & Unfixed Bugs
 
-After this there are no unfixed bugs that im aware of after extensive manual testing. There are no remaining bugs that I am aware of.
+There are no remaining bugs that I am aware of after extensive manual testing.
 
 The home page / landing page had an overflow which was affecting all the sizing on the page in various mobile sizes. 
 
-Having spoke to tutor suport on this and the approah to take was to install the following chrome extension Unicorn Revealer by dehlin.dev 5.0 withe the following (20 ratings) from other users.
+Having spoke to tutor suport on this and the approah to take was to install the following chrome extension, Unicorn Revealer by dehlin.dev 5.0 withe the following (20 ratings) from other users.
 
 The extension excerpts below:
 Overview
@@ -214,6 +214,10 @@ As a web developer it can be hard to inspect and find out where overlow is locat
 
 ## The fix
 
-Using this chrome extension we were able to locate the issue in a <hr> tag, Horizontal Rule tag and the solution was to add width 300px to the <hr> tag, therefore solving the issue and allowing full mobile responsiveness. 
+Using this chrome extension I were able to locate the issue in a hr tag, the Horizontal Rule tag and the solution was to add width 300px to the hr tag, therefore solving the issue and allowing full mobile responsiveness without the border overruns which were occuring. 
+
+Before implementing a final solution to this I tested 200px. 250px, 300px, 350px and 400px. 
+
+Thanks to Thomas Wharton - Learning Success Tutor - Code Institute
 
 
