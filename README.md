@@ -1,5 +1,6 @@
 ## Our custom model code & the how and why ?
 
+
 ## Admin.py File
 
 This admin.py file configures the Django Admin interface for two models: GiftBox and Booking. Let's break it down the lines into steps:
@@ -51,6 +52,69 @@ This admin.py file configures the Django Admin interface for two models: GiftBox
 
 This admin.py file is configuring the Django Admin interface for two models, GiftBox and Booking, with custom admin views to display certain fields, allow searching, filtering, and ordering. It enhances the usability of the Django Admin for managing these 2 custom models.
 
+<br>
+<br>
+
+<br>
+<br>
+
+
+## Forms.py File
+
+The forms.py file defines a Django form that is used for handling the creation or update of Booking objects. Here's a breakdown of the code in the forms.py file:
+
+**Imports:**
+
+    from django import forms
+    from .models import Booking, GiftBox
+
+-   **from django import forms**: This imports Django's forms module, which contains various classes and methods for creating forms. It’s essential for handling user input and validation in Django applications.
+-   **from .models import Booking, GiftBox**: This imports the Booking and GiftBox models from the current module ( in this case from the models.py file), which are the custom models this form will be interacting with.
+
+**The** **BookingForm** **class:**
+
+    class BookingForm(forms.ModelForm):
+	    class Meta:
+	    model = Booking
+	    fields = ['giftbox', 'customer_name', 'customer_email']
+	    
+	    giftbox = forms.ModelChoiceField(queryset=GiftBox.objects.all(), empty_label="Select a Giftbox")
+	    customer_name = forms.CharField(max_length=100)
+	    customer_email = forms.EmailField()
+
+
+This form is a **ModelForm**, which means it's directly tied to a Django model. The form will automatically generate fields based on the model's attributes and handle the validation and saving of data for the Booking model.
+
+**class BookingForm(forms.ModelForm):**
+
+-   This creates a subclass of forms.ModelForm, allowing the form to work with the Booking model.
+
+**class Meta:**
+
+-   The **Meta class** is used to configure the form's settings, particularly which model it is tied to and which fields should be included in the form.
+
+**model = Booking****:**
+
+-   This specifies that the form is tied to the Booking model. So, the form will be used to create or edit instances of this model, in this case the below fields.
+
+**fields = ['giftbox', 'customer_name', 'customer_email']****:**
+
+-   This indicates that the form will include the following fields for user input:
+
+-   giftbox: A reference to a GiftBox object. ( giftboxes 1 to 6 for the user to choose from )
+-   customer_name: A text field to capture the customer's name.
+-   customer_email: A text field to capture the customer's email address.
+
+
+**Conclusion:**
+
+The BookingForm is a Django form that allows users to create or update Booking objects. It has the following three fields:
+
+-   A dropdown to select a GiftBox, numbered 1 to 6
+-   A text field for the customer's name, and
+-   A field for the customer's email address.
+
+The form uses a ModelForm to handle the conversion of user input into model instances for saving to the database. One the user inputs the 3 fields the data is sent to the Django database and retrieved form there by /admin and logging in as a Super User. 
 
 
 <br>
