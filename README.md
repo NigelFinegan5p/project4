@@ -103,6 +103,13 @@ P.s spence the book recommedation of Antonio Melé author of the Django by Examp
 Thank you............................................................
 
 
+
+<br>
+<br>
+
+<br>
+<br>
+
 ## Bibliography & Sources
 
 IMPRACTICAL PYTHON PROJECTS, Author Lee Vaughan
@@ -117,3 +124,4 @@ Python Distilled (Developers Library) (1st Edition) (David Beazley)
 Python for Dummies by Aahz Maruch and Stef Maruch
 
 [https://www.vailtech.net/sites/default/files/Python_Essentials_for_Dummies.pdf](https://www.vailtech.net/sites/default/files/Python_Essentials_for_Dummies.pdf)
+
