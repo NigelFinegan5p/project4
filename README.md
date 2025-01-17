@@ -10,16 +10,16 @@
 | HTML | [LINK](https://en.wikipedia.org/wiki/HTML) | used for the main site content |
 | CSS | [LINK](https://en.wikipedia.org/wiki/CSS) | used for the main site content styling |
 | CSS flexbox | [LINK](https://www.w3schools.com/css/css3_flexbox.asp) | used for the main site content |
-| CSS grid | [LINK](https://www.w3schools.com/css/css_grid.asp) | used for the main site content |
-| Javascript | [LINK](https://www.javascript.com) | used for the main site content |
-| Python | [LINK](https://www.python.org) | used for the main site content |
-| GitHub | [LINK](https://github.com) | used for the main site content |
-| Bootstrap | [LINK](https://getbootstrap.com) | used for the main site content |
-| Django | [LINK](https://www.djangoproject.com) | used for the main site content |
-| Heroku | [LINK](https://www.heroku.com) | used for the main site content |
-| Cloudinary | [LINK](https://cloudinary.com) | used for the main site content |
-| Gumicorn | [LINK](https://gunicorn.org/) | used for the main site content |
-| psycopg2 | [LINK](https://pypi.org/project/psycopg2/) | used for the main site content |
+| CSS grid | [LINK](https://www.w3schools.com/css/css_grid.asp) | enhanced responsive layout. |
+| Javascript | [LINK](https://www.javascript.com) | used for user interaction on the site |
+| Python | [LINK](https://www.python.org) | OOP back-end programming language |
+| GitHub | [LINK](https://github.com) | online code storage, PAAS. |
+| Bootstrap | [LINK](https://getbootstrap.com) | off teh shelf responsiveness and pre-built solutions |
+| Django | [LINK](https://www.djangoproject.com) | Python framework for the site. |
+| Heroku | [LINK](https://www.heroku.com) | hosting the deployed site |
+| Cloudinary | [LINK](https://cloudinary.com) | online static file storage |
+| Gunicorn | [LINK](https://gunicorn.org/) | A WSGI server |
+| psycopg2 | [LINK](https://pypi.org/project/psycopg2/) | PostgreSQL database adapter |
 
 
 <br>
