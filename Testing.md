@@ -184,13 +184,13 @@ Tested my deployed Heroku project using the Lighthouse Audit tool to check for a
 | Page | Screenshot | Notes |
 | --- | --- | --- |
 | Home |  ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/homepage.lighthouse.jpg) | performance suggestions |
-| About | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/aboutpage.lighthouse.jpg) | performance suggestions |
-| Blog | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/blog.lighthouse.jpg) | performance suggestions |
-| Hello Book & Subscribe | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/hello.lighthouse.jpg) | performance suggestions |
-| Gifts | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/gifts.lighthouse.jpg) | performance suggestions |
-| Logout | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/logout.lighthouse.jpg) | performance suggestions |
-| Book  | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/book1.lighthouse.jpg) | performance suggestions |
-| Confirmation | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/confirmation.lighthouse.jpg) | performance suggestions |
+| About | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/aboutpage.lighthouse.jpg) | best practice suggestions |
+| Blog | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/blog.lighthouse.jpg) | best practice suggestions |
+| Hello Book & Subscribe | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/hello.lighthouse.jpg) | SEO suggestions |
+| Gifts | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/gifts.lighthouse.jpg) | accessability suggestions |
+| Logout | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/logout.lighthouse.jpg) | SEO suggestions |
+| Book  | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/book1.lighthouse.jpg) | SEO suggestions |
+| Confirmation | ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/lighthouse/confirmation.lighthouse.jpg) | SEO suggestions |
 
 
 <br>
