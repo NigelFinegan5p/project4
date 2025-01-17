@@ -5,23 +5,21 @@
 
 ## Tools & Technologies Used
 
-
-- [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
-- [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
-- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used for an enhanced responsive layout.
-- [CSS Grid](https://www.w3schools.com/css/css_grid.asp) used for an enhanced responsive layout.
-- [JavaScript](https://www.javascript.com) used for user interaction on the site.
-- [Python](https://www.python.org) used as the back-end programming language.
-- [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
-- [GitHub](https://github.com) used for secure online code storage.
-- [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
-- [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [Django](https://www.djangoproject.com) used as the Python framework for the site.
-- [PostgreSQL](https://www.postgresql.org) used as the relational database management.
-- [Heroku](https://www.heroku.com) used for hosting the deployed site.
-- [Cloudinary](https://cloudinary.com) used for online static file storage.
-- [Gunicorn](https://gunicorn.org/) used for WSGI server
-- [sycopg2](https://pypi.org/project/psycopg2/) used as a PostgreSQL database adapter
+| Page | Link | Notes |
+| --- | --- | --- |
+| HTML |![screenshot](https://en.wikipedia.org/wiki/HTML) | used for the main site content |
+| CSS |![screenshot](https://en.wikipedia.org/wiki/CSS) | used for the main site content styling |
+| CSS flexbox |![screenshot](https://www.w3schools.com/css/css3_flexbox.asp) | used for the main site content |
+| CSS grid |![screenshot](https://www.w3schools.com/css/css_grid.asp) | used for the main site content |
+| Javascript |![screenshot](https://www.javascript.com) | used for the main site content |
+| Python |![screenshot](https://www.python.org) | used for the main site content |
+| GitHub |![screenshot](https://github.com) | used for the main site content |
+| Bootstrap |![screenshot](https://getbootstrap.com) | used for the main site content |
+| Django |![screenshot](https://www.djangoproject.com) | used for the main site content |
+| Heroku |![screenshot](https://www.heroku.com) | used for the main site content |
+| Cloudinary |![screenshot](https://cloudinary.com) | used for the main site content |
+| Gumicorn |![screenshot](https://gunicorn.org/) | used for the main site content |
+| psycopg2 |![screenshot](https://pypi.org/project/psycopg2/) | used for the main site content |
 
 
 <br>
