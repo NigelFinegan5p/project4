@@ -1,5 +1,7 @@
 ## Our custom model code & the how and why ?
 
+<br>
+<br>
 
 ## Admin.py File
 
