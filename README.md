@@ -7,7 +7,7 @@
 
 | Page | Link | Notes |
 | --- | --- | --- |
-| HTML | [LINK] (https://en.wikipedia.org/wiki/HTML) | used for the main site content |
+| HTML | [LINK](https://en.wikipedia.org/wiki/HTML) | used for the main site content |
 | CSS |![screenshot](https://en.wikipedia.org/wiki/CSS) | used for the main site content styling |
 | CSS flexbox |![screenshot](https://www.w3schools.com/css/css3_flexbox.asp) | used for the main site content |
 | CSS grid |![screenshot](https://www.w3schools.com/css/css_grid.asp) | used for the main site content |
