@@ -122,6 +122,61 @@ The form uses a ModelForm to handle the conversion of user input into model inst
 <br>
 <br>
 
+
+## urls.py File
+
+**Code Explanation:**
+
+The urls.py file contains the follwing code:
+
+    from django.urls import path
+    from . import views
+        
+          
+     urlpatterns = [
+        path('', views.giftbox_list, name='giftbox_list'),
+        path('book/<int:giftbox_id>/', views.book_giftbox, name='book_giftbox'),
+        path('booking_confirmation/<int:booking_id>/', views.booking_confirmation, name='booking_confirmation'), 
+        ]
+
+
+1.  **Imports**:
+
+from django.urls import path
+from . import views
+-   path is imported from django.urls to define URL patterns.
+-   views is imported to reference the view functions that handle HTTP requests and return responses.
+
+2.  **URL Patterns**:
+
+-   urlpatterns: This is a list that defines the URL patterns for the application.
+
+Each path() function call represents a specific URL pattern and maps it to a view function.
+
+`path('', views.giftbox_list, name='giftbox_list'):`
+
+-   The empty string '' matches the root URL of this section of the site.
+-   When this URL is accessed, it calls the giftbox_list function in views.py to handle the request.
+-   The URL is named hello from the app set up with the HTML file named 'giftbox_list', 
+
+
+`path('book/<int:giftbox_id>/', views.book_giftbox, name='book_giftbox'):`
+
+-   This pattern will match URLs of the form book/<giftbox_id>, where <giftbox_id> is an integer passed as a parameter.
+-   The value of <giftbox_id> will be passed to the book_giftbox view function.
+-   The booking from the end user occurs when they are presented with a drop down box of 6 options.
+<!-- <!-- next file here> -->
+
+<br>
+<br>
+
+<br>
+<br>
+
+
+
+
+
 ## Tools & Technologies Used
 
 | Page | Link | Notes |
