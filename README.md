@@ -112,7 +112,7 @@ Thank you............................................................
 
 ## Bibliography & Sources
 
-Django 5 By Example book, Antonio Melé
+Django 5 By Example book, Antonio Melé (5th & 6th Edition), available for free download.
 
 https://djangobyexample.com/
 
