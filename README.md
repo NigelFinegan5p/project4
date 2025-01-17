@@ -41,7 +41,7 @@ I applied the MoSCow prioritization and labels to my user stories within GitHub 
 
 ## Testing
 
-For all testing, please refer to the [TESTING.md](TESTING.md) file.
+For all testing, please refer to the [TESTING.md](https://github.com/NigelFinegan5p/project4/blob/main/Testing.md) file.
 
 
 <br>
