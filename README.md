@@ -56,6 +56,8 @@ This admin.py file is configuring the Django Admin interface for two models, Gif
 <br>
 <br>
 
+<br>
+<br>
 
 ## Tools & Technologies Used
 
@@ -75,6 +77,9 @@ This admin.py file is configuring the Django Admin interface for two models, Gif
 | Gunicorn | [LINK](https://gunicorn.org/) | A WSGI server |
 | psycopg2 | [LINK](https://pypi.org/project/psycopg2/) | PostgreSQL database adapter |
 
+
+<br>
+<br>
 
 <br>
 <br>
@@ -99,6 +104,8 @@ For all testing, please refer to the [TESTING.md](https://github.com/NigelFinega
 <br>
 <br>
 
+<br>
+<br>
 
 ### Heroku Deployment
 
@@ -143,6 +150,9 @@ Or:
 	- `git push heroku main`
 
 The project should now be connected and deployed to Heroku!
+
+<br>
+<br>
 
 <br>
 <br>
