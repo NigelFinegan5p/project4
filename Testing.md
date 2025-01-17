@@ -223,4 +223,6 @@ Before implementing a final solution to this I tested 200px. 250px, 300px, 350px
 Thanks to Thomas Wharton - Learning Success Tutor - Code Institute... 
 
 
+Thank you.................................................................................
+
 
