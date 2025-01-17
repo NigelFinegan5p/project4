@@ -143,7 +143,7 @@ The urls.py file contains the follwing code:
 
 1.  **Imports**:
 
-`from django.urls import path` 
+`from django.urls import path` <p></p>
 `from . import view`
 
 -   path is imported from django.urls to define URL patterns.
