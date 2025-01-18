@@ -51,7 +51,7 @@ Our dedicated team is ready and waiting to help you choose the perfect gift for 
 ### Colour Scheme, Colors & Color Palette Generator
 
 
-The color scheme uses the following and project inception, due to the adaptive nature of the project this changed when needed and adapted accordingly:
+The color scheme uses the following at project inception, due to the adaptive nature of the project this changed when needed and adapted accordingly:
 
 
 ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/readme/homepage3%2C_enhanced.jpg)
@@ -64,6 +64,8 @@ The color scheme uses the following and project inception, due to the adaptive n
 
 <br>
 <br>
+
+
 
 ## Our custom model code & the how and why ?
 
