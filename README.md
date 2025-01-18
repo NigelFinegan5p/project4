@@ -336,6 +336,26 @@ For all testing, please refer to the [TESTING.md](https://github.com/NigelFinega
 <br>
 <br>
 
+### Images & Media Sources 
+
+
+| Source | Location | Type | Notes |
+| --- | --- | --- | --- |
+| [Pixabay](https://pixabay.com/) | Landing pape | image | Main image |
+| [Pixabay](https://pixabay.com/) | Blog posts | image | Wrapped present
+| [Pixabay](https://pixabay.com/) | About page| image | Present
+
+
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
+
+
 ### Heroku Deployment
 
 This project uses [Heroku](https://www.heroku.com), a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
