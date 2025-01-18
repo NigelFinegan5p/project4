@@ -54,7 +54,7 @@ Our dedicated team is ready and waiting to help you choose the perfect gift for 
 The color scheme uses the following and project inception, due to the adaptive nature of the project this changed when needed and adapted accordingly:
 
 
-![screenshot]()
+![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/readme/homepage3%2C_enhanced.jpg)
 
 <br>
 <br>
