@@ -48,6 +48,22 @@ Our dedicated team is ready and waiting to help you choose the perfect gift for 
 <br>
 
 
+### Colour Scheme, Colors & Color Palette Generator
+
+
+The color scheme uses the following and project inception, due to the adaptive nature of the project this changed when needed and adapted accordingly:
+
+
+![screenshot]()
+
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
 
 ## Our custom model code & the how and why ?
 
