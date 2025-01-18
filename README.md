@@ -14,9 +14,9 @@
 
 ## Our Story & The Vision
 
-**_The Customer & serveing the market_**
+**_The Customer UX & serveing the market_**
 
-We strongly believed in supporting local producers. Not all small producers get listed in large multnational retailers. Some of these brand and products operate in parrrell to the traditional model and offer sume very premium experiences. Our aim is to bring these unknown household names directly to the customer household.
+We strongly believed in supporting local producers. Not all small producers get listed in large multnational retailers. Some of these brand and products operate in parrrell to the traditional model and offer some very premium experiences. Our aim is to bring these unknown and unrecognised names directly to the customer household.
 
 
 **_The Inspiration_**
