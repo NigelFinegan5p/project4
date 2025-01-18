@@ -26,7 +26,7 @@ We strongly believed in supporting local producers. When I was young, I would wo
 **_The Beginning_**  
 The Company started out in 2025, with some poetic licence required.
 
-What was an idea for a gift service delivering local shopping needs evolved into an online gift delivery company, specializing in Irish gourmet hampers and alternative gifts, as well as a wide range of personalized and experience gifts. The real Price/Value propositon is bringing the new and upcoming premium brand to market via a DTC business model. 
+What was an idea for a gift service delivering local shopping needs evolved into an online gift delivery company, specializing in Irish gourmet hampers and alternative gifts, as well as a wide range of personalized and experience gifts. The real Price/Value propositon is bringing the new and upcoming premium brands to market via a DTC business model and allowing the unseen and heard brands to become household names. 
 
 At Gift Box Direct, we're passionate about supporting the best premium suppliers. We have brgun nurtured relationships with over 30 local businesses to ensure our hampers are brimming with only the finest gourmet foods and iconic premium brands & Irish treats.  
 #shoplocal
