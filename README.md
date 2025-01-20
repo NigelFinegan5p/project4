@@ -72,7 +72,7 @@ The 4Ps of Ecommerce Marketing – Product, Price, Place, and Promotion – thes
 -   Leave the site with a great brand experience
 -   View the 6 strategic product options available
 -   Access Anywhere
--  Engage with the brand on blog posts and drop there ideas
+-  Engage with the brand on blog posts and allow the user to drop there ideas and feedback on blog posts or use the contact us form . 
 
 
 <br>
