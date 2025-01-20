@@ -391,6 +391,21 @@ def book_giftbox(request, giftbox_id):
     -   After successful booking, the user is redirected to the booking confirmation page using `redirect('booking_confirmation', booking_id=booking.id)`, passing the `booking_id` to the confirmation view.
     - To access the saved booking data i manually tested this 5 times and the order is saved to the database with a corresponding order number
 
+
+<br>
+
+### 4. **Booking Confirmation View** (`booking_confirmation`):
+
+-   **Fetch Booking**: The booking is retrieved by its `id` from the URL (e.g., `/confirmation/<booking_id>/`).
+-   **Render Confirmation**: The `booking` object is passed as context to the `booking_confirmation.html` template to show the details of the booking.
+
+```
+def booking_confirmation(request, booking_id):
+    booking = Booking.objects.get(id=booking_id)
+    return render(request, 'hello_world/booking_confirmation.html', {'booking': booking})
+```
+
+
 <br>
 <br>
 
