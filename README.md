@@ -16,7 +16,7 @@
 
 **_The Customer UX & serving the market_**
 
-We strongly believed in supporting local producers. Not all small producers get listed in large multnational retailers. Some of these brand and products operate in parrrell to the traditional model and offer some very premium experiences. Our aim is to bring these unknown and unrecognised names directly to the customer household.
+We strongly believe in supporting local producers. Not all small producers get listed in large multnational retailers. Some of these brand and products operate in parrrell to the traditional retail model and offer some very premium experiences. Our aim is to bring some of these unknown and unrecognised names directly to the customer household.
 
 
 **_The Inspiration_**
@@ -24,11 +24,11 @@ We strongly believed in supporting local producers. Not all small producers get 
 We strongly believed in supporting local producers. When I was young, I would work every Saturday in a local retail store and I always saw the same faces there, week in, week out. That store was more than the shop that sold customers their newspapers, eggs, and bread; it was their friend and confidant.
 
 **_The Beginning_**  
-The Company started out in 2025, with some poetic licence required.
+The company started out in 2025, with some poetic licence required.
 
 What was an idea for a gift service delivering local shopping needs evolved into an online gift delivery company, specializing in Irish gourmet hampers and alternative gifts, as well as a wide range of personalized and experience gifts. The real Price/Value propositon is bringing the new and upcoming premium brands to market via a DTC business model and allowing the unseen and heard brands to become household names. 
 
-At Gift Box Direct, we're passionate about supporting the best premium suppliers. We have brgun nurtured relationships with over 30 local businesses to ensure our hampers are brimming with only the finest gourmet foods and iconic premium brands & Irish treats.  
+At Gift Box Direct, we're passionate about supporting the best premium suppliers. We have begun to nurture relationships with over 30 local businesses to ensure our hampers are brimming with only the finest gourmet foods and iconic premium brands & Irish treats.  
 #shoplocal
 
 **_When It Has To Be the GBD box_**
