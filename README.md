@@ -340,10 +340,12 @@ The response can be a simple HTTP response, an HTML template response, or an HTT
 2. **Giftbox List View** (`giftbox_list`):
 
 
-`@login_required(login_url="/accounts/login/")`
-`def giftbox_list(request):`
-    `giftboxes = GiftBox.objects.all()`
-    `return render(request, 'hello_world/giftbox_list.html', {'giftboxes': giftboxes})`
+```
+@login_required(login_url="/accounts/login/")
+def giftbox_list(request):
+    giftboxes = GiftBox.objects.all()
+    return render(request, 'hello_world/giftbox_list.html', {'giftboxes': giftboxes})
+```
 
 
   **Decorator**: 
