@@ -320,6 +320,39 @@ In the model view controller (MVC) architecture, the view component deals with h
 The response can be a simple HTTP response, an HTML template response, or an HTTP redirect response that redirects a user to another page. Views hold the logic that is required to return information as a response in whatever form to the user. As a matter of best practice, the logic that deals with views is held in the  **views.py**  file in a Django app.
 
 
+### 1. **Imports**:
+
+    from django.shortcuts import render, redirect
+    from .models import GiftBox, Booking
+    from .forms import BookingForm
+    from django.contrib.auth.decorators import login_required
+
+
+
+-   `render` and `redirect`: These are Django shortcuts for rendering templates and redirecting users to different views respectively.
+-   `GiftBox` and `Booking`: These are models from your Django application/ database that represent the database tables.
+-   `BookingForm`: This is a form of class that handles the user input for booking a giftbox.
+-   `login_required`: A decorator that ensures a user must be logged in to access certain views.
+
+
+2. **Giftbox List View** (`giftbox_list`):
+
+`@login_required(login_url="/accounts/login/")`
+`def giftbox_list(request):`
+    `giftboxes = GiftBox.objects.all()  # Get all giftboxes from the database`
+    `return render(request, 'hello_world/giftbox_list.html', {'giftboxes': giftboxes})  # Render the giftbox list template`
+
+ 
+  **Decorator**: 
+- `@login_required` ensures that only logged-in users can view this page. If a user is not logged in, they will be redirected to `/accounts/login/`. Instruction provided by [Django decorators](https://docs.djangoproject.com/en/5.1/topics/http/decorators/).
+
+**Logic**:
+
+  -   This view retrieves all `GiftBox` objects from the database using `GiftBox.objects.all()`.
+  -   The `render()` function returns an HTML page (`giftbox_list.html`), passing the `giftboxes` data as context to the
+   template. The data is giftbox 1 to giftbox 6. 
+
+
 
 <br>
 <br>
