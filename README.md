@@ -331,21 +331,21 @@ The response can be a simple HTTP response, an HTML template response, or an HTT
 
 -   `render` and `redirect`: These are Django shortcuts for rendering templates and redirecting users to different views respectively.
 -   `GiftBox` and `Booking`: These are models from your Django application/ database that represent the database tables.
--   `BookingForm`: This is a form of class that handles the user input for booking a giftbox.
+-   `BookingForm`: This is a form of class that handles the user input for booking a giftbox, and its realationship with and to forms.py
 -   `login_required`: A decorator that ensures a user must be logged in to access certain views.
+
+<br>
 
 
 2. **Giftbox List View** (`giftbox_list`):
 
- 
-    @login_required(login_url="/accounts/login/") 
-    def giftbox_list(request): 
-		    giftboxes = GiftBox.objects.all()
-		    return render(request,'hello_world/giftbox_list.html', {'giftboxes': giftboxes})
-  
+
+`@login_required(login_url="/accounts/login/")`
+`def giftbox_list(request):`
+    `giftboxes = GiftBox.objects.all()`
+    `return render(request, 'hello_world/giftbox_list.html', {'giftboxes': giftboxes})`
 
 
- 
   **Decorator**: 
 - `@login_required` ensures that only logged-in users can view this page. If a user is not logged in, they will be redirected to `/accounts/login/`. Instruction provided by [Django decorators](https://docs.djangoproject.com/en/5.1/topics/http/decorators/).
 
