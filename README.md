@@ -406,6 +406,7 @@ def booking_confirmation(request, booking_id):
 ```
 
 <br>
+
 ### 5. **Django decorator** 
 
 In order to ensure that logged in user only order from the Book & Subscribe GBD page we added in the following form the Django Library.
