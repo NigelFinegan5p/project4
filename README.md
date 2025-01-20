@@ -335,6 +335,7 @@ The response can be a simple HTTP response, an HTML template response, or an HTT
 -   `login_required`: A decorator that ensures a user must be logged in to access certain views.
 
 <br>
+<br>
 
 
 2. **Giftbox List View** (`giftbox_list`):
@@ -358,6 +359,37 @@ def giftbox_list(request):
    template. The data is giftbox 1 to giftbox 6. 
 
 
+<br>
+
+
+### 3. **Book Giftbox View** (`book_giftbox`):
+
+
+```
+def book_giftbox(request, giftbox_id):
+    giftbox = GiftBox.objects.get(id=giftbox_id)
+    
+    if request.method == 'POST':
+        form = BookingForm(request.POST)
+        if form.is_valid():
+            # Save the booking and redirect to the booking confirmation page
+            booking = form.save(commit=False)
+            booking.giftbox = giftbox
+            booking.save()
+            return redirect('booking_confirmation', booking_id=booking.id)
+    else:
+        form = BookingForm(initial={'giftbox': giftbox})
+
+    return render(request, 'hello_world/book_giftbox.html', {'form': form, 'giftbox': giftbox})
+```
+
+-   **Fetch Giftbox**: The giftbox being booked is fetched using `giftbox_id` passed from the URL (e.g., `/book/<giftbox_id>/`).
+-   **POST Request**: If the form is submitted (`POST` method), a `BookingForm` is instantiated with the request data (`request.POST`). If the form is valid:
+    -   A new booking instance is created using `form.save(commit=False)`, which means the form data is processed but not saved to the database yet.
+    -   The `giftbox` is associated with the booking (this step links the booking to the specific giftbox).
+    -   The booking is saved to the database with `booking.save()`.
+    -   After successful booking, the user is redirected to the booking confirmation page using `redirect('booking_confirmation', booking_id=booking.id)`, passing the `booking_id` to the confirmation view.
+    - To access the saved booking data i manually tested this 5 times and the order is saved to the database with a corresponding order number
 
 <br>
 <br>
