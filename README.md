@@ -407,9 +407,10 @@ def booking_confirmation(request, booking_id):
 
 <br>
 
+
 ### 5. **Django decorator** 
 
-In order to ensure that logged in user only order from the Book & Subscribe GBD page we added in the following form the Django Library.
+In order to ensure that logged in users only can order from the Book & Subscribe page on GBD we added in the following from the Django Library.
 
 Using this approach requires that the [`login_required()`](https://docs.djangoproject.com/en/5.1/topics/auth/default/#django.contrib.auth.decorators.login_required "django.contrib.auth.decorators.login_required") also takes an optional `login_url` parameter. 
 
@@ -421,6 +422,7 @@ from django.contrib.auth.decorators import login_required
 @login_required(login_url="/accounts/login/")
 def my_view(request): ...
 ```
+
 
 <br>
 <br>
