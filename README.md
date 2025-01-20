@@ -63,6 +63,7 @@ The 4Ps of Ecommerce Marketing – Product, Price, Place, and Promotion – thes
 
 <br>
 
+![E4P's](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/readme/e4p.jpg)
 
 ***User Goals***
 
