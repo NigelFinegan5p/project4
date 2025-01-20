@@ -338,7 +338,7 @@ The response can be a simple HTTP response, an HTML template response, or an HTT
 <br>
 
 
-2. **Giftbox List View** (`giftbox_list`):
+### 2. **Giftbox List View** (`giftbox_list`):
 
 
 ```
