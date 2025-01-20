@@ -33,7 +33,7 @@ At Gift Box Direct, we're passionate about supporting the best premium suppliers
 
 **_When It Has To Be the GBD box_**
 
-Our mission is to make gift-giving as convenient as possible, and this is at the heart of everything we intend to do, no matter what the occasion. The potential for success has been delivering the best of premium suppliers, beautifully presented, coupled with superior customer service. Our streamlined gift boxes, User experience, Customer service, bears this out from the moment you hit the landing page on mobile or desktop.
+Our mission is to make gift-giving as convenient as possible, and this is at the heart of everything we intend to do, no matter what the occasion. The potential for success can be seen by delivering the best of premium suppliers, beautifully presented, coupled with superior customer service. Our streamlined gift boxes, User experience, Customer service, bears this out from the moment you hit the landing page on mobile or desktop.
 
 Our dedicated team is ready and waiting to help you choose the perfect gift for loved ones and valued clients alike, so give us a call or drop us a line and we'll take care of the rest.
 
@@ -437,19 +437,19 @@ def my_view(request): ...
 
 | Page | Link | Notes |
 | --- | --- | --- |
-| HTML | [LINK](https://en.wikipedia.org/wiki/HTML) | used for the main site content |
-| CSS | [LINK](https://en.wikipedia.org/wiki/CSS) | used for the main site content styling |
-| CSS flexbox | [LINK](https://www.w3schools.com/css/css3_flexbox.asp) | used for the main site content |
-| CSS grid | [LINK](https://www.w3schools.com/css/css_grid.asp) | enhanced responsive layout. |
-| Javascript | [LINK](https://www.javascript.com) | used for user interaction on the site |
+| HTML | [LINK](https://en.wikipedia.org/wiki/HTML) | Used for the main site content |
+| CSS | [LINK](https://en.wikipedia.org/wiki/CSS) | Used for the main site content styling |
+| CSS flexbox | [LINK](https://www.w3schools.com/css/css3_flexbox.asp) | Used for the main site content |
+| CSS grid | [LINK](https://www.w3schools.com/css/css_grid.asp) | Enhanced responsive layout. |
+| Javascript | [LINK](https://www.javascript.com) | Used for user interaction on the site |
 | Python | [LINK](https://www.python.org) | OOP back-end programming language |
-| GitHub | [LINK](https://github.com) | online code storage, PAAS. |
-| Bootstrap | [LINK](https://getbootstrap.com) | off teh shelf responsiveness and pre-built solutions |
+| GitHub | [LINK](https://github.com) | Online code storage, PAAS. |
+| Bootstrap | [LINK](https://getbootstrap.com) | Off teh shelf responsiveness and pre-built solutions |
 | Django | [LINK](https://www.djangoproject.com) | Python framework for the site. |
-| Heroku | [LINK](https://www.heroku.com) | hosting the deployed site |
-| Cloudinary | [LINK](https://cloudinary.com) | online static file storage |
+| Heroku | [LINK](https://www.heroku.com) | Hosting the deployed site |
+| Cloudinary | [LINK](https://cloudinary.com) | Online static file storage |
 | Gunicorn | [LINK](https://gunicorn.org/) | A WSGI server |
-| psycopg2 | [LINK](https://pypi.org/project/psycopg2/) | PostgreSQL database adapter |
+| Psycopg2 | [LINK](https://pypi.org/project/psycopg2/) | PostgreSQL database adapter |
 
 
 <br>
