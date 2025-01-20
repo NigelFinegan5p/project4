@@ -59,11 +59,12 @@ The vison for this project  was to create a simple, sleek, website with 6 gift b
 ## User Goals / Project Goals
 
 ***E-commerce 4p's***
-The 4Ps of Ecommerce Marketing – Product, Price, Place, and Promotion – these first order principles of E-Marketing,  have been critical and insightful for providing guiding principles to unlocking unprecedented value added ideas for this project. By carefully strategizing these elements, we enhanced and elevated the original project idea to a brand, and stand out Price/Value position in the competitive world of online retail, gift boxing. 
+<p>
+
+The 4Ps of Ecommerce Marketing – Product, Price, Place, and Promotion – these first order principles of E-Marketing,  have been critical and insightful for providing guiding principles to unlocking unprecedented value added ideas for this project. By carefully strategizing these elements, we enhanced and elevated the original project idea to a brand, and stand out Price/Value position in the competitive world of online retail, gift boxing.  
 
 <br>
 
-![E4P's](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/readme/e4p.jpg)
 
 ***User Goals***
 
