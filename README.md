@@ -48,6 +48,58 @@ Our dedicated team is ready and waiting to help you choose the perfect gift for 
 <br>
 
 
+
+## UX User experience &  the customer
+
+The vison for this project  was to create a simple, sleek, website with 6 gift box options which would be in stark contrast to the many cluttered websites with a multitude of options that the user will have undoubtedly come across. Relevant information on the product offering is presented in a concise, clean manner, allowing the user to navigate through the site functions in a linear, frictionless manner. 
+
+
+<br>
+
+## User Goals / Project Goals
+
+***E-commerce 4p's***
+The 4Ps of Ecommerce Marketing – Product, Price, Place, and Promotion – these first order principles of E-Marketing,  have been critical and insightful for providing guiding principles to unlocking unprecedented value added ideas for this project. By carefully strategizing these elements, we enhanced and elevated the original project idea to a brand, and stand out Price/Value position in the competitive world of online retail, gift boxing. 
+
+<br>
+
+
+***User Goals***
+
+-   Discover the Gift Box Brand
+-   Leave the site with a great brand experience
+-   View the 6 strategic product options available
+-   Access Anywhere
+-  Engage with the brand on blog posts and drop there ideas
+
+
+<br>
+
+***Project Goals***
+
+-   Build a Functional Platform
+- Meet CRUD Functionality 
+- Align project with guidance material for grading
+-   Implement User Authentication
+-   Optimize Performance
+-   Test and Debug
+-   Deploy a Live Application
+-   Ensure Accessibility 
+
+I used Agile frameworks & hand drawn tools to organize and manage my project efficiently. GitHub was the main tool I used to implement this system.
+
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
+
+
+
+
 ### Colour Scheme, Colors & Color Palette Generator
 
 
