@@ -433,6 +433,71 @@ def my_view(request): ...
 <br>
 <br>
 
+## Models.py File
+
+This `models.py` file defines two Django models: `GiftBox` and `Booking`. Here's an an overview of the Models.py file for the custom booking system.
+
+----------
+
+### **GiftBox Model**
+
+#### **Gift Boxes 1 to 6 :**
+
+-   **`BOX_CHOICES`**: This is a predefined list of tuples used in the `name` field of the `GiftBox` model. Each tuple contains a value and a display name. The `choices` attribute ensures that only one of the options from this list can be selected when creating or updating a `GiftBox`.
+
+
+
+
+This model represents a "gift box" that can be booked with 6 options. 
+
+#### **Attributes:**
+
+-   **`name`**: A `CharField` with a maximum length of 20 characters. The `choices` attribute ensures that the value can only be one of the six predefined options (Giftbox 1 to Giftbox 6). The `unique=True` constraint ensures that no two `GiftBox` records can have the same name.
+    
+-   **`description`**: A `TextField` that stores a longer description of the gift box. This is typically used to provide more information about the box's contents or its intended use.
+    
+-   **`price`**: A `DecimalField` that stores the price of the gift box, with a maximum of 6 digits, of which 2 digits can be after the decimal point (e.g., 19.99).
+    
+
+#### **Methods:**
+
+-   **`__str__()`**: This method is overridden to return the `name` of the gift box when the object is represented as a string. This is particularly useful for displaying the name in Django admin or when querying the database.
+
+----------
+
+### **Booking Model**
+
+This model represents a booking of a `GiftBox` made by a customer.
+
+#### **Attributes:**
+
+-   **`giftbox`**: A `ForeignKey` field that links this `Booking` to a specific `GiftBox` from the `GiftBox` model. The `on_delete=models.CASCADE` argument means that if a `GiftBox` is deleted, all related `Booking` instances will also be deleted automatically.
+    
+-   **`customer_name`**: A `CharField` that stores the name of the customer who made the booking.
+    
+-   **`customer_email`**: An `EmailField` that stores the email address of the customer.
+    
+-   **`date_booked`**: A `DateTimeField` that automatically stores the date and time when the booking was created. The `auto_now_add=True` argument ensures that this field is set to the current date and time when a new `Booking` instance is created.
+    
+
+#### **Methods:**
+
+-   **`__str__()`**: This method returns a string that describes the booking, including the customer’s name and the name of the booked gift box. This is used when displaying the booking in Django admin or in query results.
+
+
+
+
+
+
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
+
 ## Tools & Technologies Used
 
 | Page | Link | Notes |
