@@ -504,6 +504,7 @@ This model represents a "gift box" that can be booked with 6 options.
 
 
 <br>
+<br>
 
 ### **Booking Model**
 
@@ -519,6 +520,8 @@ This model represents a booking of a `GiftBox` made by a customer.
     
 -   **`date_booked`**: A `DateTimeField` that automatically stores the date and time when the booking was created. The `auto_now_add=True` argument ensures that this field is set to the current date and time when a new `Booking` instance is created.
     
+<br>
+
 
 #### **Methods:**
 
