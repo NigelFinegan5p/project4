@@ -472,7 +472,10 @@ class Booking(models.Model):
 
 ```
 
-----------------------------------------------------------------------------------------------
+
+
+<br>
+<br>
 
 ### **GiftBox Model**
 
@@ -498,7 +501,9 @@ This model represents a "gift box" that can be booked with 6 options.
 
 -   **`__str__()`**: This method is overridden to return the `name` of the gift box when the object is represented as a string. This is particularly useful for displaying the name in Django admin or when querying the database.
 
-----------
+
+
+<br>
 
 ### **Booking Model**
 
