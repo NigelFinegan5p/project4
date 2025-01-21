@@ -528,7 +528,30 @@ This model represents a booking of a `GiftBox` made by a customer.
 -   **`__str__()`**: This method returns a string that describes the booking, including the customer’s name and the name of the booked gift box. This is used when displaying the booking in Django admin or in query results.
 
 
+<br>
+<br>
 
+
+## Troubleshooting
+
+When i build the booking & subscrition model and refreshed the browser it did not work.
+So to clearly define and articulate what i mean by this the HTML file giftbox_list.html file was only showing the `<h1>` heading on the page. 
+
+As a way to test whether or not what i had written needed adaption a approached it this way.
+
+ 1. in the URL use /admin
+ 2. login into the admin panel
+ 3. check of the migrations from the CLI that were displaying ok had been back end administered
+ 4. the admin panel showed they had and therefore the next step was that the database & display was to be tested
+ 5. i wrote a qurey set in line 5 of the giftbox_list.html file
+ 6. Using the following code i wrote {{ hello world }}
+ 7. I then refreshed the browser and the page displayed `<QUERYSET>`
+ 8. Able to ascertain that the database was looping through by the `<QUERYSET>` the next step was add data to the empty database.
+ 9. I added the giftbox options and price when logged into /admin
+ 10. After a refresh of the browser  the display otions appeared after the back end inputs.
+
+Thats how i troubled shooted and tested the LOOP that i built. 
+All that was left to do was input the the final HTML for page structure with appropriate bootstrap for responsive design.
 
 
 
