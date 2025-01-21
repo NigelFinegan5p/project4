@@ -99,6 +99,23 @@ I used Agile frameworks & hand drawn tools to organize and manage my project eff
 <br>
 <br>
 
+## Data base design 
+
+Since project one i have hand sketched project ideas and scoped out projects this way and found this an effective approach for fleshing out ideas and concepts.
+
+My Entity Relationship (ER) Diagram is a flowchart that illustrates how “entities” relate within a designed system. 
+My ER Diagrams shows the Giftbox Model and the Booking model and there associated fields. 
+
+
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
+
 
 
 
