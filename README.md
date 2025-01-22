@@ -108,9 +108,9 @@ My ER Diagrams shows the Giftbox Model and the Booking model and there associate
 
 Links to drawings:
 
-![Erd 1](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/database/erd.jpg)
+![Erd 1]()
 
-![Erd 2](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/database/erd2.jpg)
+![Erd 2]()
 
 
 
