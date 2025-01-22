@@ -197,6 +197,17 @@ Tested my deployed Heroku project using the Lighthouse Audit tool to check for a
 <br>
 
 
+### Custom 404 Page Erros - Tested working
+| Page | Screenshot | Notes |
+| --- | --- | --- |
+| 404 |  ![screenshot]() | Custom error displayed |
+
+
+
+<br>
+<br>
+<br>
+<br>
 
 ## Bug fixing & Unfixed Bugs
 
