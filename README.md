@@ -103,8 +103,16 @@ I used Agile frameworks & hand drawn tools to organize and manage my project eff
 
 Since project one i have hand sketched project ideas and scoped out projects this way and found this an effective approach for fleshing out ideas and concepts.
 
-My Entity Relationship (ER) Diagram is a flowchart that illustrates how “entities” relate within a designed system. 
+My Entity Relationship (ER) Diagram is a flowchart that illustrates how the entities relate within a designed system. 
 My ER Diagrams shows the Giftbox Model and the Booking model and there associated fields. 
+
+Links to drawings:
+
+![Erd 1](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/database/erd.jpg)
+
+![Erd 2](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/database/erd2.jpg)
+
+
 
 
 <br>
