@@ -108,6 +108,8 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 <br>
 <br>
 
+
+
 #### Validation Blog App
 
 | File | Screenshot | Notes |
@@ -122,6 +124,8 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 
 <br>
 <br>
+
+
 
 #### Validation Codestar  ( Project Folder )
 
@@ -161,6 +165,8 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 
 <br>
 <br>
+
+
 
 #### Validation Hello_world App
 
@@ -205,7 +211,7 @@ Tested my deployed Heroku project using the Lighthouse Audit tool to check for a
 <br>
 
 
-### Custom 404 Page Erros - Tested working
+### Custom 404 Page Error - Tested working
 | Page | Screenshot | Notes |
 | --- | --- | --- |
 | 404 |  ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/readme/404error2.jpg) | Custom error displayed |
