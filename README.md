@@ -544,6 +544,10 @@ This model represents a booking of a `GiftBox` made by a customer.
 
 -   **`__str__()`**: This method returns a string that describes the booking, including the customer’s name and the name of the booked gift box. This is used when displaying the booking in Django admin or in query results.
 
+<br>
+
+![Confirmation of Booking](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/readme/confirmation2.jpg)
+
 
 <br>
 <br>
