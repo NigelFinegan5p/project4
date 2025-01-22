@@ -549,6 +549,13 @@ This model represents a booking of a `GiftBox` made by a customer.
 ![Confirmation of Booking](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/readme/confirmation2.jpg)
 
 
+
+<br>
+<br>
+
+<br>
+<br>
+
 <br>
 <br>
 
