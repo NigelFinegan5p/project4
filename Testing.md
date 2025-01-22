@@ -210,9 +210,9 @@ Having spoke to tutor suport on this and the approah to take was to install the 
 
 The extension excerpts below:
 Overview
-Do you have overflow on your website and want to try find it. Sparkle some 🦄🌈on your website and find where it is.
+Do you have overflow on your website and want to try find it. Sparkle some 🦄on your website and find where it is.
 
-As a web developer it can be hard to inspect and find out where overlow is located. You can sprinke some 🦄🌈 on the website and it will turn all black and pink, this will show the borders and make it easier to debug. It is as simple as right click a website Sparkle it on once done right click and remove the sparkle.
+As a web developer it can be hard to inspect and find out where overlow is located. You can sprinke some 🦄 on the website and it will turn all black and pink, this will show the borders and make it easier to debug. It is as simple as right click a website Sparkle it on once done right click and remove the sparkle.
 
 ## The fix
 
@@ -220,7 +220,7 @@ Using this chrome extension I were able to locate the issue in a hr tag, the Hor
 
 Before implementing a final solution to this I tested 200px. 250px, 300px, 350px and 400px. 
 
-Thanks to Thomas Wharton - Learning Success Tutor - Code Institute... 
+Thanks to Thomas Wharton - Learning Success Tutor - Code Institute..............
 
 
 Thank you.................................................................................
