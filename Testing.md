@@ -71,6 +71,9 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 <br>
 <br>
 
+<br>
+<br>
+
 ### CSS
 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
@@ -174,6 +177,8 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 <br>
 <br>
 
+<br>
+<br>
 
 
 ## Lighthouse Audit, Chrome Developer Tools
@@ -196,16 +201,20 @@ Tested my deployed Heroku project using the Lighthouse Audit tool to check for a
 <br>
 <br>
 
+<br>
+<br>
+
 
 ### Custom 404 Page Erros - Tested working
 | Page | Screenshot | Notes |
 | --- | --- | --- |
-| 404 |  ![screenshot]() | Custom error displayed |
+| 404 |  ![screenshot](https://github.com/NigelFinegan5p/project4/blob/main/xtra_documents/readme/404error2.jpg) | Custom error displayed |
 
 
 
 <br>
 <br>
+
 <br>
 <br>
 
