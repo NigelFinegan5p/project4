@@ -10,7 +10,7 @@
         <div class="col-12 mt-3 left">
             <div class="row">
                 {% for post in post_list %}
-                <!-- changed from 4 to 12-->
+                <!-- changed from 4 to 12 , tested and moved back-->
                 <div class="col-md-4">
                     <div class="card mb-4">
                         <div class="card-body">
@@ -32,14 +32,13 @@
                                 <p class="card-text">{{ post.excerpt }}</p>
                             </a>
 
-                            
                             <p class="card-text text-muted h6">{{ post.created_on}}
                             </p>
                         </div>
                     </div>
                 </div>
                 {% if forloop.counter|divisibleby:3 %}
-                <!-- changed from 3 to 1-->
+                <!-- changed from 3 to 1, tested and moved back-->
             </div>
             <div class="row">
                 {% endif %}
@@ -64,4 +63,3 @@
 
 <!-- index.html content ends here -->
 {% endblock %}
-

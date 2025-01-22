@@ -11,7 +11,6 @@
             {% else %}
             <img src="{{ about.profile_image.url }}" width="100" alt="{{ about.title }}">
             {% endif %}
-            <!-- <img src="{% static 'images/bg.jpg' %}" width="100%"> -->
             <p>
                 <br>
                 <br>
@@ -39,8 +38,7 @@
             <p>Is there something out there you have seen and would like to share, Please reach out
                 tell us at the gift box forum!</p>
 
-            <!-- add your form here. Your submit button should 
-                                have the classes of btn, btn-secondary -->
+            <!-- add form , have the classes of btn, btn-secondary -->
             <form method="post">
                 {{ collaborate_form | crispy }}
                 {% csrf_token %}
