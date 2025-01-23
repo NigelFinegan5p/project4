@@ -566,7 +566,7 @@ This model represents a booking of a `GiftBox` made by a customer.
 
 ## Troubleshooting & Looping through
 
-When i build the booking & subscrition model and refreshed the browser it did not work.
+When i was building the booking & subscrition model and refreshed the browser it did not work.
 So to clearly define and articulate what i mean by this the HTML file giftbox_list.html file was only showing the `<h1>` heading on the page. 
 
 As a way to test whether or not what i had written needed adaption, a stepped out approach was taken and the steps below are how it was initiated.
