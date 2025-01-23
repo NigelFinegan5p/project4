@@ -43,6 +43,8 @@ Strategic & Defensive programming conducted manual testing as per the site struc
 | New Comment on GBD Blog Post - Registered User | | | | |
 | | Enter Post Comment Title | Submit button is required | Pass | |
 | | Enter Post Comment Update | Edit button is required | Pass | |
+| | Delete Post Comment | Delete button is required | Pass | |
+| | Delete updated Post Comment | Delete button is required | Pass | |
 
 
 <br>
