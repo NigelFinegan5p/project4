@@ -26,9 +26,9 @@ We strongly believed in supporting local producers. When I was young, I would wo
 **_The Beginning_**  
 The company started out in 2025, with some poetic licence required.
 
-What was an idea for a gift service delivering local shopping needs evolved into an online gift delivery company, specializing in Irish gourmet hampers and alternative gifts, as well as a wide range of personalized and experience gifts. The real Price/Value propositon is bringing the new and upcoming premium brands to market via a DTC business model and allowing the unseen and heard brands to become household names. 
+What was an idea for a gift service delivering local shopping needs evolved into an online gift delivery company, specializing in premium gourmet hampers and alternative gifts, as well as a wide range of personalized and experience gifts. The real Price/Value propositon is bringing the new and upcoming premium brands to market via a DTC business model and allowing the unseen and heard brands to become household names. 
 
-At Gift Box Direct, we're passionate about supporting the best premium suppliers. We have begun to nurture relationships with over 30 local businesses to ensure our hampers are brimming with only the finest gourmet foods and iconic premium brands & Irish treats.  
+At Gift Box Direct, we're passionate about supporting the best premium suppliers. We have begun to nurture relationships with over 30 local businesses to ensure our hampers are brimming with only the finest gourmet foods and iconic premium brands & super treats.  
 #shoplocal
 
 **_When It Has To Be the GBD box_**
@@ -263,7 +263,7 @@ The BookingForm is a Django form that allows users to create or update Booking o
 -   A text field for the customer's name, and
 -   A field for the customer's email address.
 
-The form uses a ModelForm to handle the conversion of user input into model instances for saving to the database. One the user inputs the 3 fields the data is sent to the Django database and retrieved form there by /admin and logging in as a Super User. 
+The form uses a ModelForm to handle the conversion of user input into model instances for saving to the database. Once the user inputs the 3 fields, the data is sent to the Django database and retrieved form there by /admin and logging in as a Super User. 
 
 <br>
 <br>
@@ -278,7 +278,7 @@ The form uses a ModelForm to handle the conversion of user input into model inst
 ## Urls.py File
 
 The urls.py file. So what really happens in urls.py?
-Like reading a map before exploring a terrain A URL pattern is defined as a regular expression that matches a URL. When a user requests a URL, Django goes through the list of URL patterns defined in the urls.py file and finds the first pattern that matches the URL. If no pattern matches, Django returns a 404 error.
+Like reading a map before exploring terrain A URL pattern is defined as a regular expression that matches a URL. When a user requests a URL, Django goes through the list of URL patterns defined in the urls.py file and finds the first pattern that matches the URL. If no pattern matches, Django returns a 404 error.
 
 The urls.py file contains the follwing code:
 
@@ -513,7 +513,7 @@ This model represents a "gift box" that can be booked with 6 options.
 
 -   **`name`**: A `CharField` with a maximum length of 20 characters. The `choices` attribute ensures that the value can only be one of the six predefined options (Giftbox 1 to Giftbox 6). The `unique=True` constraint ensures that no two `GiftBox` records can have the same name.
     
--   **`description`**: A `TextField` that stores a longer description of the gift box. This is typically used to provide more information about the box's contents or its intended use.
+-   **`description`**: A `TextField` that stores a longer description of the gift box. This is used to provide more information about the box's contents. 
     
 -   **`price`**: A `DecimalField` that stores the price of the gift box, with a maximum of 6 digits, of which 2 digits can be after the decimal point (e.g., 19.99).
     
@@ -569,10 +569,10 @@ This model represents a booking of a `GiftBox` made by a customer.
 When i build the booking & subscrition model and refreshed the browser it did not work.
 So to clearly define and articulate what i mean by this the HTML file giftbox_list.html file was only showing the `<h1>` heading on the page. 
 
-As a way to test whether or not what i had written needed adaption a approached it this way.
+As a way to test whether or not what i had written needed adaption, a stepped out approach was taken and the steps below are how it was initiated.
 
- 1. in the URL use /admin
- 2. login into the admin panel
+ 1. in the URL i used the home url and added /admin
+ 2. log in into the admin panel
  3. check of the migrations from the CLI that were displaying ok had been back end administered
  4. the admin panel showed they had and therefore the next step was that the database & display was to be tested
  5. i wrote a qurey set in line 5 of the giftbox_list.html file
@@ -768,7 +768,7 @@ The project should now be connected and deployed to Heroku!
 
 ### Acknowledgements
 
-I would like to thank my Code Institute mentor, Spencer Barriball for all the meeetings, insights & insightfullnes, viking stories and Game of thrones anecdotes.
+I would like to thank my Code Institute mentor, Spencer Barriball for all the meeetings, insights & insightfullnes, for the macro level overview of Troubleshooting & Looping through noted above and strategic approach to problem solving and steller advice. 
 
 P.s spence the book recommedation of Antonio Melé author of the Django by Example programming book, has been most helpful and of great assistance. 
 
