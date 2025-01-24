@@ -664,7 +664,7 @@ Thanks to Thomas Wharton - Learning Success Tutor - Code Institute...
 
 I applied the MoSCow prioritization and labels to my user stories within GitHub platform,  on open & closed
 
-- **Must Have**: must have primaery objective, guaranteed to be delivered 
+- **Must Have**: must have primary objective, guaranteed to be delivered 
 - **Should Have**: adds significant value, secondary objective and still vital 
 - **Could Have**: has small impact if left out, didnt use in this instance
 - **Won't Have**: not a priority for this iteration or project
