@@ -4,26 +4,23 @@
 
 {% block content %}
 
-<div class="masthead">
+<div class="masthead py-4">
     <div class="container">
         <div class="row g-0">
             <div class="col-md-6 masthead-text">
-                <!-- Responsive featured image with fallback -->
-                {% if "placeholder" in post.featured_image.url %}
-                    <img src="{% static 'images/giftboxgold.jpg' %}"
-                         class="img-fluid mb-3"
-                         alt="Placeholder image"
-                         style="max-width: 200px;">
-                {% else %}
-                    <img src="{{ post.featured_image.url }}"
-                         class="img-fluid mb-3"
-                         alt="{{ post.title }}"
-                         style="max-width: 200px;">
-                {% endif %}
-                
-                <!-- Post title and metadata -->
-                <h1 class="post-title">{{ post.title }}</h1>
-                <p class="post-subtitle">{{ post.author }} | {{ post.created_on }}</p>
+                {% with image_url=post.featured_image.url %}
+                    <img 
+                        src="{% if 'placeholder' in image_url %}{% static 'images/giftboxgold.jpg' %}{% else %}{{ image_url }}{% endif %}"
+                        class="img-fluid mb-3"
+                        alt="{% if 'placeholder' in image_url %}Placeholder image{% else %}{{ post.title }}{% endif %}"
+                        style="max-width: 200px;"
+                        loading="lazy"
+                        decoding="async"
+                    >
+                {% endwith %}
+
+                <h1 class="post-title mt-3">{{ post.title }}</h1>
+                <p class="post-subtitle text-muted">{{ post.author }} | {{ post.created_on }}</p>
             </div>
         </div>
     </div>
