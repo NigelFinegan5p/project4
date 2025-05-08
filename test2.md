@@ -1,25 +1,183 @@
-<!-- callout and offer-->
-<div class="container-fluid callout-container" style="height: 100vh; background: url('{% static 'images/backgroundimage.jpg' %}') center center / cover no-repeat fixed; display: flex; align-items: center; justify-content: center; position: relative;">
-<div class="opaque-overlay">&nbsp;</div>
-        <div class="row">
-            <div class="col-12">
-                <section class="callout jumbotron text-center">
-                    <h1 class="jumbotron-header">Subscription boxes for a gift that keeps on giving</h1>
-                    <hr class="block-divider block-divider--yellow" style="width: 300px;">
-                    <p class="lead">Gift Box Direct subscription boxes make for an ingenious gift, whether you’re
-                        shopping for
-                        birthdays, anniversaries, other special occasions or just want to treat yourself.
-                        <s class="d-none d-sm-inline">€29.99</s>
-                        <span class="d-inline d-sm-none"><br></span>
-                        <strong>
-                            <mark>First order is €9.99</mark>
-                        </strong>
-                    </p>
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+
+<!--- features-->
+<div class="container-wrapper container-wrapper--gold">
+    <div class="container features-container content-container">
+        <section class="features">
+            <div class="row">
+                <div class="col-12 page-header">
+                    <h2 class="text-uppercase">Gift Box Features:</h2>
+                    <hr class="block-divider block-divider--short block-divider--white">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Gift Box 1 <span
+                                class="badge badge-warning">New!</span></h3>
+                        <p> - New Mum Gift Box - </p>
+                        <img class="card-img-top" src="{% static 'images/gb1.jpg' %}" alt="Card image cap">
+                        
+                        <p><b> - Handmade Soap Company hand cream, hand made in Ireland.<br>
+                            - Mango Body Butter from Dublin Herbalist made with mango butter and avocado oil.<br>
+                            - Three Hills Soap Bath Soak/Salts handcrafted in small batches in Dublin.<br>
+                            - Bean & Goose Irish Sea Salt Chocolate. Made in Ireland.</b></p>
+                        
+
+                        <hr class="block-divider block-divider--short block-divider--white">
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Gift Box 2 <span
+                                class="badge badge-warning">New!</span></h3>
+                        <p> - New Dad Gift Box - </p>
+                        <img class="card-img-top" src="{% static 'images/gb3.jpg' %}" alt="Card image cap">
+                        
+                        <p><b> - Three Hills Soap Irish Activated Charcoal Soap is hand made natural soap.<br>
+                            - Choice of socks from Irish Socksciety, made in Ireland from 100% cotton.<br>
+                            - Oxmantown Vetiver & Sage Beard & Face.Suitable for dads both with and without beards!
+                            <br>
+                            - Badger & Dodo Coffee, Roasted in Cork.
+                        </b></p>
                     
-                </section>
+                        <hr class="block-divider block-divider--short block-divider--white">
+                    </div>
+                </div>
+                <div class="col-12 d-md-none d-lg-block col-lg-4">
+                    <div class="feature">
+                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Gift Box 3 <span
+                                class="badge badge-warning">New!</span></h3>
+                        <p> - Gift Box For Grandad - </p>
+                        <img class="card-img-top" src="{% static 'images/gb1.jpg' %}" alt="Card image cap">
+                        
+                        <p><b> - Handmade Soap Company hand cream, hand made in Ireland.<br>
+                            - Mango Body Butter from Dublin Herbalist made with mango butter and avocado oil.<br>
+                            - Three Hills Soap Bath Soak/Salts handcrafted in small batches in Dublin.<br>
+                            - The real bean to bar dark chocolate.<br>
+                            - Badger & Dodo Coffee, blended in Cork.</b></p>
+                        
+
+                        <hr class="block-divider block-divider--short block-divider--white">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /.features-->
+    </div>
+</div>
+<!-- Banner for media -->
+<div>
+    <img src="{% static 'images/16012025.jpg' %}" class="img-fluid" alt="Responsive image">
+</div>
+<!-- /. banner for media -->
+
+<!--- features set 2 gift box 4-5-6 -->
+<div class="container-wrapper container-wrapper--gold">
+    <div class="container features-container content-container">
+        <section class="features">
+            <div class="row">
+                <div class="col-12 page-header">
+                    <h2 class="text-uppercase">Gift Box Features:</h2>
+                    <hr class="block-divider block-divider--short block-divider--white">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Gift Box 4 <span
+                                class="badge badge-warning">New!</span></h3>
+                        <p> - New Mum Gift Box - </p>
+                        <img class="card-img-top" src="{% static 'images/gb1.jpg' %}" alt="Card image cap">
+                        
+                        <p><b> - Handmade Soap Company hand cream, hand made in Ireland.<br>
+                            - Mango Body Butter from Dublin Herbalist made with mango butter and avocado oil.<br>
+                            - Three Hills Soap Bath Soak/Salts handcrafted in small batches in Dublin.<br>
+                            - Bean & Goose Irish Sea Salt Chocolate. Made in Ireland.</b></p>
+                        
+
+                        <hr class="block-divider block-divider--short block-divider--white">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Gift Box 5 <span
+                                class="badge badge-warning">New!</span></h3>
+                        <p> - New Dad Gift Box - </p>
+                        <img class="card-img-top" src="{% static 'images/gb3.jpg' %}" alt="Card image cap">
+                        
+                        <p><b> - Three Hills Soap Irish Activated Charcoal Soap is hand made natural soap.<br>
+                            - Choice of socks from Irish Socksciety, made in Ireland from 100% cotton.<br>
+                            - Oxmantown Vetiver & Sage Beard & Face.Suitable for dads both with and without
+                            beards!<br>
+                            - Badger & Dodo Coffee, Roasted in Cork.
+                        </b></p>
+                         
+                        <hr class="block-divider block-divider--short block-divider--white">
+                    </div>
+                </div>
+                <div class="col-12 d-md-none d-lg-block col-lg-4">
+                    <div class="feature">
+                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Gift Box 6 <span
+                                class="badge badge-warning">New!</span></h3>
+                        <p> - Gift Box For Nan - </p>
+                        <img class="card-img-top" src="{% static 'images/gb1.jpg' %}" alt="Card image cap">
+                        
+                        <p><b>
+                            - Handmade Soap Company hand cream, hand made in Ireland.<br>
+                            - Mango Body Butter from Dublin Herbalist made with mango butter and avocado oil.<br>
+                            - Three Hills Soap Bath Soak/Salts handcrafted in small batches in Dublin.<br>
+                            - Premium bean to bar dark chocolate.<br>
+                            - Badger & Dodo Coffee, blended in Cork.
+                        </b></p>
+                        
+
+                        <hr class="block-divider block-divider--short block-divider--white">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /.features set 2  gift box 4-5-6 -->
+    </div>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Gift Box Direct - Sign Up</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1"
+                            aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="repeatPassword">Repeat Password</label>
+                        <input type="password" class="form-control" id="repeatPassword"
+                            placeholder="repeatPassword">
+                    </div>
+
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                </form>
             </div>
         </div>
     </div>
- <!--callout and offer-->
+</div>
 
- 
+{% endblock content %}
