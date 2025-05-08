@@ -20,7 +20,7 @@
                                 <img class="card-img-top" src="{% static 'images/giftboxgold.jpg' %}"
                                     alt="placeholder image">
                                 {% else %}
-                                <img class="card-img-top" src="{{ post.featured_image.url }}" alt="{{ post.title }}">
+                                <img class="card-img-top" src=" {{ post.featured_image.url }}" alt="{{ post.title }}">
                                 {% endif %}
                                 <!-- cloudinary -->
                                 <div class="image-flash">
@@ -28,22 +28,24 @@
                                 </div>
                             </div>
                             <a href="{% url 'post_detail' post.slug %}" class="post-link">
-                                <h2 class="card-title" style="color: white;">{{ post.title }}</h2>
+                                <h2 class="card-title">{{ post.title }}</h2>
                                 <p class="card-text">{{ post.excerpt }}</p>
                             </a>
-                            <p class="card-text text-muted h6">{{ post.created_on }}</p>
+                            <p class="card-text text-muted h6">{{ post.created_on}}
+                            </p>
                         </div>
                     </div>
                 </div>
                 {% if forloop.counter|divisibleby:3 %}
+                <!-- changed from 3 to 1, tested and moved back-->
             </div>
             <div class="row">
                 {% endif %}
                 {% endfor %}
+
             </div>
         </div>
     </div>
-
     {% if is_paginated %}
     <nav aria-label="Page navigation">
         <ul class="pagination justify-content-center">
@@ -60,3 +62,4 @@
 
 <!-- index.html content ends here -->
 {% endblock %}
+
