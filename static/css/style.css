@@ -1,3 +1,17 @@
+.callout-container {
+    height: 100vh;
+    background: url('../images/backgroundimage.jpg') center center / cover no-repeat fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+
+
+
 .bg-white {
     background-color: #ffc107 !important;
 }
