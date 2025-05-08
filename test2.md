@@ -1,183 +1,132 @@
 {% extends 'base.html' %}
-{% block content %}
 {% load static %}
+{% load crispy_forms_tags %}
 
-<!--- features-->
-<div class="container-wrapper container-wrapper--gold">
-    <div class="container features-container content-container">
-        <section class="features">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase">Gift Box Features:</h2>
-                    <hr class="block-divider block-divider--short block-divider--white">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="feature">
-                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Gift Box 1 <span
-                                class="badge badge-warning">New!</span></h3>
-                        <p> - New Mum Gift Box - </p>
-                        <img class="card-img-top" src="{% static 'images/gb1.jpg' %}" alt="Card image cap">
-                        
-                        <p><b> - Handmade Soap Company hand cream, hand made in Ireland.<br>
-                            - Mango Body Butter from Dublin Herbalist made with mango butter and avocado oil.<br>
-                            - Three Hills Soap Bath Soak/Salts handcrafted in small batches in Dublin.<br>
-                            - Bean & Goose Irish Sea Salt Chocolate. Made in Ireland.</b></p>
-                        
+{% block content %}
 
-                        <hr class="block-divider block-divider--short block-divider--white">
-
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="feature">
-                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Gift Box 2 <span
-                                class="badge badge-warning">New!</span></h3>
-                        <p> - New Dad Gift Box - </p>
-                        <img class="card-img-top" src="{% static 'images/gb3.jpg' %}" alt="Card image cap">
-                        
-                        <p><b> - Three Hills Soap Irish Activated Charcoal Soap is hand made natural soap.<br>
-                            - Choice of socks from Irish Socksciety, made in Ireland from 100% cotton.<br>
-                            - Oxmantown Vetiver & Sage Beard & Face.Suitable for dads both with and without beards!
-                            <br>
-                            - Badger & Dodo Coffee, Roasted in Cork.
-                        </b></p>
-                    
-                        <hr class="block-divider block-divider--short block-divider--white">
-                    </div>
-                </div>
-                <div class="col-12 d-md-none d-lg-block col-lg-4">
-                    <div class="feature">
-                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Gift Box 3 <span
-                                class="badge badge-warning">New!</span></h3>
-                        <p> - Gift Box For Grandad - </p>
-                        <img class="card-img-top" src="{% static 'images/gb1.jpg' %}" alt="Card image cap">
-                        
-                        <p><b> - Handmade Soap Company hand cream, hand made in Ireland.<br>
-                            - Mango Body Butter from Dublin Herbalist made with mango butter and avocado oil.<br>
-                            - Three Hills Soap Bath Soak/Salts handcrafted in small batches in Dublin.<br>
-                            - The real bean to bar dark chocolate.<br>
-                            - Badger & Dodo Coffee, blended in Cork.</b></p>
-                        
-
-                        <hr class="block-divider block-divider--short block-divider--white">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /.features-->
-    </div>
-</div>
-<!-- Banner for media -->
-<div>
-    <img src="{% static 'images/16012025.jpg' %}" class="img-fluid" alt="Responsive image">
-</div>
-<!-- /. banner for media -->
-
-<!--- features set 2 gift box 4-5-6 -->
-<div class="container-wrapper container-wrapper--gold">
-    <div class="container features-container content-container">
-        <section class="features">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h2 class="text-uppercase">Gift Box Features:</h2>
-                    <hr class="block-divider block-divider--short block-divider--white">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="feature">
-                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Gift Box 4 <span
-                                class="badge badge-warning">New!</span></h3>
-                        <p> - New Mum Gift Box - </p>
-                        <img class="card-img-top" src="{% static 'images/gb1.jpg' %}" alt="Card image cap">
-                        
-                        <p><b> - Handmade Soap Company hand cream, hand made in Ireland.<br>
-                            - Mango Body Butter from Dublin Herbalist made with mango butter and avocado oil.<br>
-                            - Three Hills Soap Bath Soak/Salts handcrafted in small batches in Dublin.<br>
-                            - Bean & Goose Irish Sea Salt Chocolate. Made in Ireland.</b></p>
-                        
-
-                        <hr class="block-divider block-divider--short block-divider--white">
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="feature">
-                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Gift Box 5 <span
-                                class="badge badge-warning">New!</span></h3>
-                        <p> - New Dad Gift Box - </p>
-                        <img class="card-img-top" src="{% static 'images/gb3.jpg' %}" alt="Card image cap">
-                        
-                        <p><b> - Three Hills Soap Irish Activated Charcoal Soap is hand made natural soap.<br>
-                            - Choice of socks from Irish Socksciety, made in Ireland from 100% cotton.<br>
-                            - Oxmantown Vetiver & Sage Beard & Face.Suitable for dads both with and without
-                            beards!<br>
-                            - Badger & Dodo Coffee, Roasted in Cork.
-                        </b></p>
-                         
-                        <hr class="block-divider block-divider--short block-divider--white">
-                    </div>
-                </div>
-                <div class="col-12 d-md-none d-lg-block col-lg-4">
-                    <div class="feature">
-                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Gift Box 6 <span
-                                class="badge badge-warning">New!</span></h3>
-                        <p> - Gift Box For Nan - </p>
-                        <img class="card-img-top" src="{% static 'images/gb1.jpg' %}" alt="Card image cap">
-                        
-                        <p><b>
-                            - Handmade Soap Company hand cream, hand made in Ireland.<br>
-                            - Mango Body Butter from Dublin Herbalist made with mango butter and avocado oil.<br>
-                            - Three Hills Soap Bath Soak/Salts handcrafted in small batches in Dublin.<br>
-                            - Premium bean to bar dark chocolate.<br>
-                            - Badger & Dodo Coffee, blended in Cork.
-                        </b></p>
-                        
-
-                        <hr class="block-divider block-divider--short block-divider--white">
-
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /.features set 2  gift box 4-5-6 -->
-    </div>
-</div>
-
-<div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Gift Box Direct - Sign Up</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1"
-                            aria-describedby="emailHelp" placeholder="Enter email">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                            else.</small>
-                    </div>
-                    <div class="form-group">
-                        <label for="password">Password</label>
-                        <input type="password" class="form-control" id="password" placeholder="Password">
-                    </div>
-                    <div class="form-group">
-                        <label for="repeatPassword">Repeat Password</label>
-                        <input type="password" class="form-control" id="repeatPassword"
-                            placeholder="repeatPassword">
-                    </div>
-
-                    <button type="submit" class="btn btn-warning">Submit</button>
-                </form>
+<div class="masthead">
+    <div class="container">
+        <div class="row g-0">
+            <div class="col-md-6 masthead-text">
+                <!--  template logic did not yet exist to display the uploaded image-->
+                {% if "placeholder" in post.featured_image.url %}
+                <img src="{% static 'images/giftboxgold.jpg' %}" width="50%" class="scale" alt="placeholder image" style="margin-bottom: 20px;">
+                {% else %}
+                <img src="{{ post.featured_image.url }}" width="50%" class="scale" alt="{{ post.title }}" style="margin-bottom: 20px;">
+                {% endif %}
+                <!-- Post title goes in these h1 tags -->
+                <h1 class="post-title">{{ post.title }}</h1>
+                <!-- Post author goes before the | the post's created date goes after -->
+                <p class="post-subtitle">{{ post.author }} | {{ post.created_on }}</p>
             </div>
         </div>
     </div>
 </div>
 
+<div class="container">
+    <div class="row">
+        <div class="col card mb-4  mt-3 left  top">
+            <div class="card-body">
+                <!-- The post content goes inside the card-text. -->
+                <!-- doesn't introduce any possibility of unsafe HTML-->
+                <!-- Use the | safe filter inside the template tags -->
+                <p class="card-text">
+                    {{ post.content | safe }}
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Displaying count of comments -->
+    <div class="row">
+        <div class="col-12">
+            <strong class="text-secondary">
+                <i class="far fa-comments"></i> {{ comment_count }}
+            </strong>
+        </div>
+        <div class="col-12">
+            <hr>
+        </div>
+    </div>
+    <!-- Displaying Comments -->
+    <div class="row">
+        <div class="col-md-8 card mb-4  mt-3 ">
+            <h3>Comments:</h3>
+            <div class="card-body">
+                <!-- We want a for loop inside the empty control tags
+          to iterate through each comment in comments -->
+                {% for comment in comments %}
+                <div class="p-2 comments
+          {% if not comment.approved and comment.author == user %}
+          faded{% elif not comment.approved %} d-none{% endif %}">
+                    <p class="font-weight-bold">
+                        {{ comment.author }}
+                        <span class="font-weight-normal">
+                            {{ comment.created_on }}
+                        </span> wrote:
+                    </p>
+                    <div id="comment{{ comment.id }}">
+                        {{ comment.body | linebreaks }}
+                    </div>
+                    {% if not comment.approved and comment.author == user %}
+                    <p class="approval">
+                        <strong>This comment is awaiting approval, bear with us, Team #GBD!</strong>
+                    </p>
+                    {% endif %}
+                    {% if user.is_authenticated and comment.author == user %}
+                    <button class="btn btn-delete btn-warning" comment_id="{{ comment.id }}">Delete</button>
+                    <button class="btn btn-edit btn-warning" comment_id="{{ comment.id }}">Edit</button>
+                    {% endif %}
+                </div>
+                <!-- Our for loop ends here -->
+                {% endfor %}
+            </div>
+        </div>
+        <!-- Creating New Comments -->
+        <div class="col-md-4 card mb-4 mt-3">
+            <div class="card-body">
+                {% if user.is_authenticated %}
+                <h3>Leave a comment:</h3>
+                <p>Posting as: {{ user.username }}</p>
+                <form id="commentForm" method="post" style="margin-top: 1.3em;">
+                    {{ comment_form | crispy }}
+                    {% csrf_token %}
+                    <button id="submitButton" type="submit" class="btn btn-signup btn-lg btn-warning">Submit</button>
+                </form>
+                {% else %}
+                <p>Log in to leave a comment</p>
+                {% endif %}
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Delete confirmation modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteModalLabel">Delete comment?</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Are you sure you want to delete your comment?
+                This action cannot be undone. Thank you, for being part of the Gift Box experience!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-warning" data-bs-dismiss="modal">Close</button>
+                <a id="deleteConfirm" href="#" class="btn
+          btn-danger">Delete</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 {% endblock content %}
+
+{% block extras %}
+<script src="{% static 'js/comments.js' %}"></script>
+{% endblock %}
+
+
