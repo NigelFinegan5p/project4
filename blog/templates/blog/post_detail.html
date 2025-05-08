@@ -4,19 +4,25 @@
 
 {% block content %}
 
-<div class="masthead" style="margin-bottom: 150px;">
+<div class="masthead">
     <div class="container">
         <div class="row g-0">
             <div class="col-md-6 masthead-text">
-                <!--  template logic did not yet exist to display the uploaded image-->
+                <!-- Responsive featured image with fallback -->
                 {% if "placeholder" in post.featured_image.url %}
-                <img src="{% static 'images/giftboxgold.jpg' %}" width="50%" class="scale" alt="placeholder image" style="margin-bottom: 20px;">
+                    <img src="{% static 'images/giftboxgold.jpg' %}"
+                         class="img-fluid mb-3"
+                         alt="Placeholder image"
+                         style="max-width: 200px;">
                 {% else %}
-                <img src="{{ post.featured_image.url }}" width="50%" class="scale" alt="{{ post.title }}" style="margin-bottom: 20px;">
+                    <img src="{{ post.featured_image.url }}"
+                         class="img-fluid mb-3"
+                         alt="{{ post.title }}"
+                         style="max-width: 200px;">
                 {% endif %}
-                <!-- Post title goes in these h1 tags -->
+                
+                <!-- Post title and metadata -->
                 <h1 class="post-title">{{ post.title }}</h1>
-                <!-- Post author goes before the | the post's created date goes after -->
                 <p class="post-subtitle">{{ post.author }} | {{ post.created_on }}</p>
             </div>
         </div>
