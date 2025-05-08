@@ -8,22 +8,16 @@
     <div class="container">
         <div class="row g-0">
             <div class="col-md-6 masthead-text">
-                <!-- Template logic to display uploaded image -->
+                <!--  template logic did not yet exist to display the uploaded image-->
                 {% if "placeholder" in post.featured_image.url %}
                 <img src="{% static 'images/giftboxgold.jpg' %}" width="50%" class="scale" alt="placeholder image">
                 {% else %}
                 <img src="{{ post.featured_image.url }}" width="50%" class="scale" alt="{{ post.title }}">
                 {% endif %}
-                
-                <!-- Post title with inline styles -->
-                <h1 style="font-family: 'Arial', sans-serif; font-size: 32px; font-weight: bold; color: #2c3e50; text-align: center; margin-top: 20px; padding-bottom: 10px; border-bottom: 3px solid #f1c40f; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);">
-                    {{ post.title }}
-                </h1>
-                
-                <!-- Post subtitle with inline styles -->
-                <p style="font-family: 'Arial', sans-serif; font-size: 16px; color: #555; text-align: center;">
-                    {{ post.author }} | {{ post.created_on }}
-                </p>
+                <!-- Post title goes in these h1 tags -->
+                <h1 class="post-title">{{ post.title }}</h1>
+                <!-- Post author goes before the | the post's created date goes after -->
+                <p class="post-subtitle">{{ post.author }} | {{ post.created_on }}</p>
             </div>
         </div>
     </div>
@@ -31,20 +25,21 @@
 
 <div class="container">
     <div class="row">
-        <div class="col card mb-4 mt-3 left top">
+        <div class="col card mb-4  mt-3 left  top">
             <div class="card-body">
-                <!-- Post content with inline style for card text -->
-                <p class="card-text" style="font-size: 16px; line-height: 1.6; color: #333;">
+                <!-- The post content goes inside the card-text. -->
+                <!-- doesn't introduce any possibility of unsafe HTML-->
+                <!-- Use the | safe filter inside the template tags -->
+                <p class="card-text">
                     {{ post.content | safe }}
                 </p>
             </div>
         </div>
     </div>
-
     <!-- Displaying count of comments -->
     <div class="row">
         <div class="col-12">
-            <strong class="text-secondary" style="font-size: 18px;">
+            <strong class="text-secondary">
                 <i class="far fa-comments"></i> {{ comment_count }}
             </strong>
         </div>
@@ -52,49 +47,50 @@
             <hr>
         </div>
     </div>
-
     <!-- Displaying Comments -->
     <div class="row">
-        <div class="col-md-8 card mb-4 mt-3">
-            <h3 style="font-size: 24px; color: #333;">Comments:</h3>
+        <div class="col-md-8 card mb-4  mt-3 ">
+            <h3>Comments:</h3>
             <div class="card-body">
+                <!-- We want a for loop inside the empty control tags
+          to iterate through each comment in comments -->
                 {% for comment in comments %}
                 <div class="p-2 comments
-                    {% if not comment.approved and comment.author == user %} faded
-                    {% elif not comment.approved %} d-none {% endif %}">
-                    <p class="font-weight-bold" style="font-size: 18px; color: #333;">
+          {% if not comment.approved and comment.author == user %}
+          faded{% elif not comment.approved %} d-none{% endif %}">
+                    <p class="font-weight-bold">
                         {{ comment.author }}
-                        <span class="font-weight-normal" style="font-size: 14px; color: #888;">
+                        <span class="font-weight-normal">
                             {{ comment.created_on }}
                         </span> wrote:
                     </p>
-                    <div id="comment{{ comment.id }}" style="font-size: 16px; color: #444;">
+                    <div id="comment{{ comment.id }}">
                         {{ comment.body | linebreaks }}
                     </div>
                     {% if not comment.approved and comment.author == user %}
-                    <p class="approval" style="font-size: 16px; color: #e67e22;">
+                    <p class="approval">
                         <strong>This comment is awaiting approval, bear with us, Team #GBD!</strong>
                     </p>
                     {% endif %}
                     {% if user.is_authenticated and comment.author == user %}
-                    <button class="btn btn-delete btn-warning" comment_id="{{ comment.id }}" style="margin-right: 5px;">Delete</button>
+                    <button class="btn btn-delete btn-warning" comment_id="{{ comment.id }}">Delete</button>
                     <button class="btn btn-edit btn-warning" comment_id="{{ comment.id }}">Edit</button>
                     {% endif %}
                 </div>
+                <!-- Our for loop ends here -->
                 {% endfor %}
             </div>
         </div>
-
         <!-- Creating New Comments -->
         <div class="col-md-4 card mb-4 mt-3">
             <div class="card-body">
                 {% if user.is_authenticated %}
-                <h3 style="font-size: 24px; color: #333;">Leave a comment:</h3>
-                <p style="font-size: 16px; color: #555;">Posting as: {{ user.username }}</p>
+                <h3>Leave a comment:</h3>
+                <p>Posting as: {{ user.username }}</p>
                 <form id="commentForm" method="post" style="margin-top: 1.3em;">
                     {{ comment_form | crispy }}
                     {% csrf_token %}
-                    <button id="submitButton" type="submit" class="btn btn-signup btn-lg btn-warning" style="background-color: #f39c12; border-color: #e67e22;">Submit</button>
+                    <button id="submitButton" type="submit" class="btn btn-signup btn-lg btn-warning">Submit</button>
                 </form>
                 {% else %}
                 <p>Log in to leave a comment</p>
@@ -113,19 +109,24 @@
                 <h5 class="modal-title" id="deleteModalLabel">Delete comment?</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body" style="font-size: 16px;">
-                Are you sure you want to delete your comment? This action cannot be undone. Thank you, for being part of the Gift Box experience!
+            <div class="modal-body">
+                Are you sure you want to delete your comment?
+                This action cannot be undone. Thank you, for being part of the Gift Box experience!
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary btn-warning" data-bs-dismiss="modal">Close</button>
-                <a id="deleteConfirm" href="#" class="btn btn-danger" style="background-color: #e74c3c;">Delete</a>
+                <a id="deleteConfirm" href="#" class="btn
+          btn-danger">Delete</a>
             </div>
         </div>
     </div>
 </div>
+
 
 {% endblock content %}
 
 {% block extras %}
 <script src="{% static 'js/comments.js' %}"></script>
 {% endblock %}
+
+
