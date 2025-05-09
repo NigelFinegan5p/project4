@@ -57,6 +57,3 @@ class Booking(models.Model):
 
 
 # CI Python Linter 16/01/2025 11.22am
-
-
-

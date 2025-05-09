@@ -5,6 +5,3 @@ class FirstappView(TemplateView):
 
 
 # CI Python Linter 16/01/2025 10.40am
-
-
-

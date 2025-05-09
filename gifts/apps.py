@@ -7,4 +7,3 @@ class GiftsConfig(AppConfig):
 
 
 # CI Python Linter 16/01/2025 10.45am
-
